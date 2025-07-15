@@ -23,7 +23,6 @@ Site web personnel créé avec Next.js 14, TailwindCSS, et TypeScript. Optimisé
 1. Clonez le repository :
 ```bash
 git clone <url-du-repo>
-cd mark-tolmacs-landing
 ```
 
 2. Installez les dépendances :

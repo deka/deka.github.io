@@ -13,8 +13,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   // Configuration pour GitHub Pages
-  basePath: process.env.NODE_ENV === 'production' ? '/deka-landing' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/deka-landing/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
 }
 
 module.exports = nextConfig 
