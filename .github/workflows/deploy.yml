@@ -9,6 +9,10 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     
     steps:
     - name: Checkout
@@ -24,7 +28,7 @@ jobs:
       run: npm ci
       
     - name: Build
-      run: npm run build:static
+      run: npm run export
       env:
         NODE_ENV: production
         
@@ -33,5 +37,4 @@ jobs:
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out
-        cname: deka-landing.github.io 
+        publish_dir: ./out 

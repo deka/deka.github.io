@@ -134,6 +134,4 @@ Ce projet est sous licence MIT.
 
 ## 🤝 Contact
 
-Dimitri Rayer - [mark@marktolmacs.com](mailto:mark@marktolmacs.com)
-
 Site web : [https://deka.github.io](https://deka.github.io) 
