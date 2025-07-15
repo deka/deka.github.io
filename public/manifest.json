@@ -1,0 +1,20 @@
+{
+  "name": "Dimitri Rayer - Tech Lead & Strategic Translator",
+  "short_name": "Dimitri Rayer",
+  "description": "Développeur expérimenté avec plus de 16 ans d'expérience dans la livraison de projets IT complexes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/logo-cercle.png",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+} 
