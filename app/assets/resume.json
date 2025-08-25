@@ -1,0 +1,407 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Dimitri Rayer",
+        "label": "Architecte | Tech Lead | API Management",
+        "picture": "portrait.png",
+        "website": "",
+        "summary": "",
+        "location": {
+            "city": "Angers",
+            "countryCode": "FR"
+        },
+        "profiles": [
+            {
+                "network": "Linkedin",
+                "username": "Dimitri Rayer",
+                "url": "https://www.linkedin.com/in/dimitri-rayer-63458776/"
+            }                       
+        ]
+    },
+    "work": [{
+        "company": "ONEA",
+        "location": "Maine et Loire",
+        "position": "Développeur full stack | Atlantic",
+        "startDate": "2024-06",
+        "summary": "Prestations de conception et développement d'un configurateur de chaudière",
+        "highlights": [
+          "Application à destination des installateur pour simplifier la configuration des chaudières Atlantic",
+          "Architecture, analyse, conception et développement web",
+          "Maintien en condition opérationnelle",
+          "",
+          "Vue.js | Nuxt.js | Azure Devops"
+        ]
+      },      
+      {
+        "company": "ONEA",
+        "location": "Maine et Loire",
+        "position": "Développeur full stack | Brioche Pasquier",
+        "startDate": "2025-03",
+        "summary": "Prestations de conception et développement d'une application de rapprochement des factures clients",
+        "highlights": [
+          "Application de rapprochement des factures clients hors EDI",
+          "Audit, architecture, conception et développement web",
+          "",
+          ".Net Core | Vue.js | Azure Devops | MSSQL | ISeries"
+        ]
+      },
+      {
+        "company": "ONEA",
+        "location": "Maine et Loire",
+        "position": "Architecte Solution | BPCE",
+        "startDate": "2025-01",
+        "summary": "Architecte Solution sur les problématiques d'API Management'",
+        "highlights": [
+          "Accompagnement des équipes de développement, pour le cadrage et la mise en place de passerelles d'API",
+          "Accompagnement des équipes de développement dans leurs problématiques d'authentification et de sécurisation des API",
+          "",
+          "API Management | Axway | OAuth2 | Confluence | Jira"
+        ]
+      },
+      {
+        "company": "Agreeable",
+        "website": "https://www.agreeable.fr/",
+        "location": "France",
+        "position": "Fondateur associé | Tech",
+        "startDate": "2024-06",
+        "summary": "Développement et maintien opérationnel d'une solution de cartes cadeaux respectueuses de l'environnement.",
+        "highlights": [
+          "Traduction de la vision stratégique en solutions technologiques",
+          "Développement de la solution (Front, API, Backoffice, ...)",
+          "Gestion de projets",
+          "",
+          "PHP | Symfony | PostgreSQL | API Rest | Github"
+        ]
+      },      
+      {
+        "company": "ONEA",
+        "location": "Maine et Loire",
+        "position": "Tech lead full stack | Brioche Pasquier",
+        "startDate": "2024-03",
+        "endDate": "2024-05",
+        "summary": "Prestations de conception et développement d'une application de réduction de l'empreinte carbone",
+        "highlights": [
+          "Application de mesure de l'empreinte carbone d'un salarié",
+          "Audit, architecture, conception et développement web",
+          "",
+          ".Net Core | Vue.js | Azure Devops | MSSQL"
+        ]
+      },
+      {
+        "company": "C.N.A.M",
+        "location": "Maine et Loire",
+        "position": "Architecte du S.I",
+        "startDate": "2023-10",
+        "endDate": "2023-12",
+        "summary": "Architecte Solution au sein de l'autorité responsable de la conception (Design authority) pour 'Mon Espace Santé'",
+        "highlights": [
+          "Participation aux réunions quotidiennes (Daily stand-up)",
+          "Participation aux rénuions de conception de l'autorité (Grooming)",
+          "",
+          "JIRA | Confluence | MEGA HOPEX"
+        ]
+      },
+      {
+        "company": "ONEA",
+        "location": "Maine et Loire",
+        "position": "Développeur back end R&D | Soget",
+        "startDate": "2023-09",
+        "summary": "Accompagnement dans la mise en place d'une solution de télémetrie",
+        "highlights": [
+          "Etude de différentes solutions de télémétrie pour la supervision globale du SI SOGET (SigNoz, Azure Monitor, Jaeger, Grafana ...). ",
+          "Définition de l'architecture cible.",
+          "Définition des bonnes pratiques pour l'instrumentation des applicatifs, la collecte des données de télémétrie et la restitution",
+          "POC, ADR, dossier d'architecture",
+          "",
+          "OpenTelemetry | Azure Monitor | SigNoz | Jaeger | Grafana | Docker | .Net Core | ASP MVC | Azure Devops"
+        ]
+      },
+      {
+        "company": "ONEA",
+        "location": "Maine et Loire",
+        "position": "Tech lead front (Vue.Js) | KS2",
+        "startDate": "2022-06",
+        "endDate": "2023-10",
+        "summary": "Audit, conception et développement Vue.js 3",
+        "highlights": [
+          "Mise en place de l'architecture front de la solution",
+          "Accompagnement de l'équipe de développement",
+          "Mise en place d'un générateur de composants dynamiques (JSON components)",
+          "",
+          "Vue.js 3 | Tailwind | Pinia | API Rest | Github"
+        ]
+      },
+      {
+        "company": "ONEA",
+        "location": "Maine et Loire",
+        "position": "Architecte solution | Soget",
+        "startDate": "2022-07",
+        "endDate": "2023-07",
+        "summary": "Accompagnement dans la mise en place d'une solution d'API management",
+        "highlights": [
+          "Définition de l'architecture cible",
+          "Rédaction de spécifications techniques et fonctionnelles",
+          "Mise en place d'un portail de documentation (Bump.sh)",
+          "Accompagnement des développeurs pour les 4 briques identifiées : Access, Keys, Sales, Documentation",
+          "",
+          "API Management | Azure APIM | OIDC - Keycloack | Azure Devops | .Net Core | ASP MVC"
+        ]
+      },
+      {
+        "company": "ONEA",
+        "location": "Maine et Loire",
+        "position": "Architecte IT | Brioche Pasquier",
+        "startDate": "2022-01",
+        "endDate": "2023-07",
+        "summary": "Prestations de conseils en architecture, conception et développement informatique",
+        "highlights": [
+          "Accompagnement de l'équipe R&D du SI",
+          "Analyse et définition des interfaces entre l'existant et les nouveaux développements pour la gestion des stocks",
+          "Participation aux différents travaux d'urbanisation du SI",
+          "Revues d'architectures et de conceptions",
+          "Formation des nouveaux développeurs à VueJs",
+          "",
+          "Architecture-Urbanisation | .Net Core | Vue.js | Gravitee | OIDC | Azure Devops | MSSQL"
+        ]
+      },
+      {
+        "company": "ONEA",
+        "location": "Maine et Loire",
+        "position": "Tech lead front (Vue.Js) | KS2",
+        "startDate": "2021-11",
+        "endDate": "2022-03",
+        "summary": "Pilotage d'un projet de développement d'une plateforme de gestion des services",
+        "highlights": [
+          "Suivi quotidien et hebdomadaire de l'équipe (Agile)",
+          "Suivi du backlog et priorisation des nouvelles demandes",
+          "Analyse fonctionnelle et technique",
+          "Preuve de concept en Node/NestJs : étude de mise à l'échelle et de l'architecture hexagonale",
+          "Développement Vuejs",
+          "",
+          "Typescript | Nest.Js | Jira | Vue.js | Azure | Gitlab | OIDC | Postgresql"
+        ]
+      },
+      {
+        "company": "Pasquier SA",
+        "location": "Maine et Loire",
+        "position": "Responsable SI du pôle R&D",
+        "website": "https://pasquier.fr",
+        "startDate": "2018-01",
+        "endDate": "2021-12",
+        "summary": "Responsable d'une équipe de 4 personnes, en charge de l'industrialisation des développements web et .Net",
+        "highlights": [
+          "Définition et mise en place des architectures web hautement disponibles pour le SI Pasquier",
+          "Mise en place du comité d'urbanisation du SI",
+          "Définition et intégration d'outils de supervision et de suivi opérationnel des applications web Pasquier (ALM, APM)",
+          "Définition et mise à disposition de patrons d'architecture et de conception pour les équipes de développeurs (API, Hexagonale, DDD, CQRS, ...)",
+          "Veille technologique et choix des technologies à intégrer au SI",
+          "Conception, développement et maintien en conditions opérationnelle d'applications, d'outils et de briques applicatives techniques (authentification, internationalisation, ...)",
+          "Définition et accompagnement des équipes de développement à la mise en place de méthodologies issues du manifeste agile (itération, revues, ...).",
+          "Définition et mise en place des flux d'intégration continue et de déploiement continu (CI/CD)",
+          "Formation et suivi des équipes de développement",
+          "Management de proximité",
+          "",
+          "Architecture-Urbanisation |.Net Core | APIM | Azure Devops | Vue.js | DDD | CQRS | Angular | MSSQL | Typescript"
+        ]
+      },
+      {
+        "company": "E.S.E.O",
+        "location": "",
+        "position": "Formateur .Net/.Net core ",
+        "website": "https://eseo.fr/",
+        "startDate": "2017-12",
+        "endDate": "2020-04",
+        "summary": "Intervenant quelques jours par an pour former les étudiants ingénieurs au développement .Net.",
+        "highlights": ["API Rest | .Net core | ASP .Net core"]
+      },
+      {
+        "company": "Pasquier SA",
+        "location": "",
+        "position": "Concepteur - Développeur R&D SI",
+        "website": "",
+        "startDate": "2014-05",
+        "endDate": "2017-12",
+        "summary": "Développeur dans l'équipe R&D SI.",
+        "highlights": [
+          "Architecture, analyse, conception et développement d'outils .Net : accès aux données, validation, i18n, configuration, patterns, ...",
+          "Recueil du besoin, analyse, développement, et maintien opérationnel de blocs applicatifs",
+          "Accompagnement des développeurs métier : formations, suivi, revues de code, échanges.",
+          "Administration TFS/Azure Devops",
+          "",
+          "C# | Net 3.5-4.* | Azure Devops | MSSQL | ISeries SQL"
+        ]
+      },
+      {
+        "company": "Serac Shared Services",
+        "location": "",
+        "position": "Développeur indépendant",
+        "website": "",
+        "startDate": "2014-03",
+        "endDate": "2014-12",
+        "summary": "Audit Logiciel et développement.",
+        "highlights": [
+          "Rétro-ingénierie",
+          "Analyse applicative et fonctionnelle d'un ensemble d'applications",
+          "Migration d'applications du service achat en .NET",
+          "",
+          "VB.Net | C# | .Net 3.5-4.*"
+        ]
+      },
+      {
+        "company": "Anovo",
+        "location": "",
+        "position": "Développeur .Net",
+        "website": "",
+        "startDate": "2012-09",
+        "endDate": "2014-03",
+        "summary": "Participation au développement d'EManager ; ERP dédié aux métiers du reconditionnement électronique (Orange, DELL, HP, VOO).",
+        "highlights": [
+          "Maintenance et évolutions de l'application développée en .NET.Net",
+          "Mise en place d'une architecture N'Tiers",
+          "Développement d'une librairie d'abstraction des EDI avec les transporteurs (UPS, DHL, Chronopost, DPD)",
+          "",
+          ".Net 3.5-4.* | Winform | MSSQL"
+        ]
+      },
+      {
+        "company": "Restoria",
+        "location": "",
+        "position": "Technicien IT / Développeur",
+        "website": "",
+        "startDate": "2010-05",
+        "endDate": "2012-09",
+        "summary": "Développement et maintien opérationnels d'applications métiers.",
+        "highlights": [
+          "Administration MS SQL Server 2005/2008 et mise en place des plans de sauvegarde des bases de données de la société Restoria",
+          "Mise en place d'un outil de reporting centralisé : SQL Server Reporting Services",
+          "Développement d'un extranet de suivi de commandes de repas (liaison froide)",
+          "Maintenance et amélioration d'une application de scans (Windows CE)",
+          "Développement d'un générateur de menus : outil de conception des menus pour les services diététiques et communication",
+          "",
+          "Javascript | JQuery | PHP | .Net 3.5-4.* | Winform | MSSQL"
+        ]
+      },
+      {
+        "company": "Développeur indépendant",
+        "location": "",
+        "position": "",
+        "website": "",
+        "startDate": "2008-01",
+        "endDate": "2012-01",
+        "summary": "Premiers développements informatiques professionnels, principalement un Micro ERP pour l'entreprise Rayer Pneus",
+        "highlights": [
+          "Micro ERP (stock, bon de commande, facturation",
+          "",
+          "PHP | Javascript"
+        ]
+      },
+      {
+        "company": "Vies antérieures",
+        "location": "",
+        "position": "Multiple",
+        "website": "",
+        "startDate": "1996-02",
+        "endDate": "2010-12",
+        "summary": "Avant de me professionnaliser dans l'informatique, j'ai eu plusieurs autres vies, dans le désordre: ",
+        "highlights": [
+          "Technicien son au Studio Blue Cry (Belgique)",
+          "Sonorisateur dans l'évènementiel",
+          "Hotline pour un fournisseur de décodeurs TV",
+          "Animateur socio-culturel",
+          "",
+          "Travail en équipe | Sens du service"
+        ]
+      }
+    ],   
+    "education": [
+        {
+            "institution": "Formation continue",
+            "area": "",
+            "studyType": "",
+            "courses": [
+                "WOA, Architecture orientée web (Orsys)", 
+                "Conception et designa pattern (Orsys)",                
+                "Fondements de l'agilité (OnePoint)",
+                "Communiquer et coopérer efficacement (Regard9 / Pasquier)", 
+                "Manager au quotidien (Pasquier)",
+                "Entretien d'analyse au travail et entretien professionnel (Pasquier)",
+                "Optimisation SQL (Frédérique Brouard)"
+            ]
+        },
+        {
+            "institution": "CNAM Angers",
+            "area": "Concepteur, architecte informatique",
+            "studyType": "Master I",
+            "startDate": "2012-09",
+            "endDate": "2013-08",
+            "gpa": "",
+            "courses": []
+        },
+        {
+            "institution": "CNAM Angers",
+            "area": "Développement informatique",
+            "studyType": "Licence",
+            "startDate": "2011-09",
+            "endDate": "2012-08",
+            "gpa": "",
+            "courses": []
+        },
+        {
+            "institution": "AFPA Angers",
+            "area": "Informatique de gestion",
+            "studyType": "DEUST",
+            "startDate": "2008-09",
+            "endDate": "2010-08",
+            "gpa": "",
+            "courses": []
+        }
+    ],
+    "skills": [
+        {
+            "name": "Architecture",
+            "level": "",
+            "keywords": [
+                "ALM",
+                "Api Rest",
+                "(Gravitee | Azure APIM)", 
+                "OIDC",
+                "CQRS",
+                "DDD",
+                "Hexagonale",
+                "APM | OpenTelemetry"
+            ]
+        },
+        {
+            "name": "Management",
+            "level": "",
+            "keywords": [
+                "Bienveillance",
+                "Proximité",
+                "Agile",
+                "Délégation",
+                "'Problem-solving'"
+            ]
+        },
+        {
+            "name": "Dev.",
+            "level": "",
+            "keywords": [
+                "Typescript, Vue.js 2-3, ",
+                "Node", "NestJs",
+                ".Net core, PHP",
+                "IIS, Rest, WCF",
+                "Azure Devops, Nugget",
+                "Open XML"
+            ]
+        },
+        {
+            "name": "Data",
+            "level": "",
+            "keywords": [
+                "Sql server, SSIS, SSRS, ISeries, MySql, PostgreSQL",
+                "Elasticsearch",
+                "Firestore"
+            ]
+        }
+    ]   
+}

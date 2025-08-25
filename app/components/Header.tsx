@@ -73,6 +73,12 @@ export default function Header() {
                   Services
                 </a>
               </li>
+             {/*  <li>
+              <a href="/resume.html" target="_blank" rel="noopener noreferrer"  className="text-primary-blue hover:text-primary-blue font-medium transition-colors duration-200 focus:outline-none focus:text-primary-blue"
+                 aria-label="CV">
+                CV
+              </a>
+              </li> */}
             </ul>
           </nav>
 

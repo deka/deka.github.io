@@ -1,0 +1,881 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Dimitri Rayer</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: #f8f8f8;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  margin: 0; }
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px; }
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px; }
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 11px; }
+
+li {
+    font-size: 11px; }
+
+    ul:not(.minimal):not(.two-column) li:empty {
+        list-style-type:" ";}
+
+    ul:not(.minimal):not(.two-column) li:last-child {
+        list-style-type:"\27AE";}
+        
+    blockquote {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 28px;
+         column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+@page {
+  size: A4; }
+
+.container {
+  padding-top: 40px; }
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817A; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #56817A; }
+
+.summary {
+  margin: 5px 0 5px; }
+
+.endDate { padding-right: 10px; }
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  
+  padding: 36px 22px 30px 34px;
+   }
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word; }
+
+.right-column {
+  width: auto;
+  overflow: hidden; }
+
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
+
+@media print {
+  body {
+    margin: 0; }
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none; }
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 0 34px; }
+  .container {
+    page-break-inside: avoid; }
+  .work-container .item {
+    page-break-inside: avoid; }
+  .fa-external-link {
+    display: none; } }
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px; }
+  .info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle; }
+    .info-tag-container .fa.fa-map-marker {
+      font-size: 16px; }
+    .info-tag-container .fa.fa-mobile {
+      font-size: 18px; }
+    .info-tag-container .fa.fa-envelope-o {
+      font-size: 12px; }
+    .info-tag-container .fa.fa-desktop {
+      font-size: 11px; }
+    .info-tag-container .fa.fa-external-link {
+      width: auto;
+      font-size: inherit;
+      vertical-align: text-top; }
+  .info-tag-container .info-text {
+    font-size: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 139px; }
+
+.references-container .fa {
+  font-size: 14px; }
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header pull-left">
+			        <h1>Dimitri Rayer</h1>
+			        <h2>Architecte | Tech Lead | API Management</h2>
+			    </div>
+			    <div class="profile-pic pull-right">
+			        <img src="portrait.png" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">Angers</h6>
+					        </div>
+					
+					
+					
+					                        <div class="info-tag-container">
+					                            <i class="fa fa-linkedin-square"></i>
+					                        
+					                                <h6 class="info-text">
+					                                    <a href="https://www.linkedin.com/in/dimitri-rayer-63458776/" target="_blank">
+					                                        in/Dimitri Rayer <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                    </a>
+					                                </h6>
+					                        </div></section>
+					    <div class="skills-container">
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Architecture</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <ul class="minimal">
+					                            <li><h6>ALM</h6></li>
+					                            <li><h6>Api Rest</h6></li>
+					                            <li><h6>(Gravitee | Azure APIM)</h6></li>
+					                            <li><h6>OIDC</h6></li>
+					                            <li><h6>CQRS</h6></li>
+					                            <li><h6>DDD</h6></li>
+					                            <li><h6>Hexagonale</h6></li>
+					                            <li><h6>APM | OpenTelemetry</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Management</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <ul class="minimal">
+					                            <li><h6>Bienveillance</h6></li>
+					                            <li><h6>Proximité</h6></li>
+					                            <li><h6>Agile</h6></li>
+					                            <li><h6>Délégation</h6></li>
+					                            <li><h6>&#x27;Problem-solving&#x27;</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Dev.</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <ul class="minimal">
+					                            <li><h6>Typescript, Vue.js 2-3, </h6></li>
+					                            <li><h6>Node</h6></li>
+					                            <li><h6>NestJs</h6></li>
+					                            <li><h6>.Net core, PHP</h6></li>
+					                            <li><h6>IIS, Rest, WCF</h6></li>
+					                            <li><h6>Azure Devops, Nugget</h6></li>
+					                            <li><h6>Open XML</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Data</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <ul class="minimal">
+					                            <li><h6>Sql server, SSIS, SSRS, ISeries, MySql, PostgreSQL</h6></li>
+					                            <li><h6>Elasticsearch</h6></li>
+					                            <li><h6>Firestore</h6></li>
+					                    </ul>
+					            </section>
+					    </div>
+				</aside>
+				<div class="right-column">
+					<div class="container work-container">
+					    <div class="title">
+					        <h3>Experience</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        ONEA
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">06/2024</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					            <h4>Développeur full stack | Atlantic</h4>
+					
+					            <p class="summary">Prestations de conception et développement d&#x27;un configurateur de chaudière</p>
+					
+					            <ul>
+					                <li>Application à destination des installateur pour simplifier la configuration des chaudières Atlantic</li>
+					                <li>Architecture, analyse, conception et développement web</li>
+					                <li>Maintien en condition opérationnelle</li>
+					                <li></li>
+					                <li>Vue.js | Nuxt.js | Azure Devops</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        ONEA
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">03/2025</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					            <h4>Développeur full stack | Brioche Pasquier</h4>
+					
+					            <p class="summary">Prestations de conception et développement d&#x27;une application de rapprochement des factures clients</p>
+					
+					            <ul>
+					                <li>Application de rapprochement des factures clients hors EDI</li>
+					                <li>Audit, architecture, conception et développement web</li>
+					                <li></li>
+					                <li>.Net Core | Vue.js | Azure Devops | MSSQL | ISeries</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        ONEA
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2025</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					            <h4>Architecte Solution | BPCE</h4>
+					
+					            <p class="summary">Architecte Solution sur les problématiques d&#x27;API Management&#x27;</p>
+					
+					            <ul>
+					                <li>Accompagnement des équipes de développement, pour le cadrage et la mise en place de passerelles d&#x27;API</li>
+					                <li>Accompagnement des équipes de développement dans leurs problématiques d&#x27;authentification et de sécurisation des API</li>
+					                <li></li>
+					                <li>API Management | Axway | OAuth2 | Confluence | Jira</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://www.agreeable.fr/" target="_blank">
+					                            Agreeable <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">06/2024</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					            <h4>Fondateur associé | Tech</h4>
+					
+					            <p class="summary">Développement et maintien opérationnel d&#x27;une solution de cartes cadeaux respectueuses de l&#x27;environnement.</p>
+					
+					            <ul>
+					                <li>Traduction de la vision stratégique en solutions technologiques</li>
+					                <li>Développement de la solution (Front, API, Backoffice, ...)</li>
+					                <li>Gestion de projets</li>
+					                <li></li>
+					                <li>PHP | Symfony | PostgreSQL | API Rest | Github</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        ONEA
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">03/2024</span>
+					                        <span class="endDate"> - 05/2024</span>
+					                </h5>
+					            </div>
+					            <h4>Tech lead full stack | Brioche Pasquier</h4>
+					
+					            <p class="summary">Prestations de conception et développement d&#x27;une application de réduction de l&#x27;empreinte carbone</p>
+					
+					            <ul>
+					                <li>Application de mesure de l&#x27;empreinte carbone d&#x27;un salarié</li>
+					                <li>Audit, architecture, conception et développement web</li>
+					                <li></li>
+					                <li>.Net Core | Vue.js | Azure Devops | MSSQL</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        C.N.A.M
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">10/2023</span>
+					                        <span class="endDate"> - 12/2023</span>
+					                </h5>
+					            </div>
+					            <h4>Architecte du S.I</h4>
+					
+					            <p class="summary">Architecte Solution au sein de l&#x27;autorité responsable de la conception (Design authority) pour &#x27;Mon Espace Santé&#x27;</p>
+					
+					            <ul>
+					                <li>Participation aux réunions quotidiennes (Daily stand-up)</li>
+					                <li>Participation aux rénuions de conception de l&#x27;autorité (Grooming)</li>
+					                <li></li>
+					                <li>JIRA | Confluence | MEGA HOPEX</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        ONEA
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">09/2023</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					            <h4>Développeur back end R&amp;D | Soget</h4>
+					
+					            <p class="summary">Accompagnement dans la mise en place d&#x27;une solution de télémetrie</p>
+					
+					            <ul>
+					                <li>Etude de différentes solutions de télémétrie pour la supervision globale du SI SOGET (SigNoz, Azure Monitor, Jaeger, Grafana ...). </li>
+					                <li>Définition de l&#x27;architecture cible.</li>
+					                <li>Définition des bonnes pratiques pour l&#x27;instrumentation des applicatifs, la collecte des données de télémétrie et la restitution</li>
+					                <li>POC, ADR, dossier d&#x27;architecture</li>
+					                <li></li>
+					                <li>OpenTelemetry | Azure Monitor | SigNoz | Jaeger | Grafana | Docker | .Net Core | ASP MVC | Azure Devops</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        ONEA
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">06/2022</span>
+					                        <span class="endDate"> - 10/2023</span>
+					                </h5>
+					            </div>
+					            <h4>Tech lead front (Vue.Js) | KS2</h4>
+					
+					            <p class="summary">Audit, conception et développement Vue.js 3</p>
+					
+					            <ul>
+					                <li>Mise en place de l&#x27;architecture front de la solution</li>
+					                <li>Accompagnement de l&#x27;équipe de développement</li>
+					                <li>Mise en place d&#x27;un générateur de composants dynamiques (JSON components)</li>
+					                <li></li>
+					                <li>Vue.js 3 | Tailwind | Pinia | API Rest | Github</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        ONEA
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">07/2022</span>
+					                        <span class="endDate"> - 07/2023</span>
+					                </h5>
+					            </div>
+					            <h4>Architecte solution | Soget</h4>
+					
+					            <p class="summary">Accompagnement dans la mise en place d&#x27;une solution d&#x27;API management</p>
+					
+					            <ul>
+					                <li>Définition de l&#x27;architecture cible</li>
+					                <li>Rédaction de spécifications techniques et fonctionnelles</li>
+					                <li>Mise en place d&#x27;un portail de documentation (Bump.sh)</li>
+					                <li>Accompagnement des développeurs pour les 4 briques identifiées : Access, Keys, Sales, Documentation</li>
+					                <li></li>
+					                <li>API Management | Azure APIM | OIDC - Keycloack | Azure Devops | .Net Core | ASP MVC</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        ONEA
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2022</span>
+					                        <span class="endDate"> - 07/2023</span>
+					                </h5>
+					            </div>
+					            <h4>Architecte IT | Brioche Pasquier</h4>
+					
+					            <p class="summary">Prestations de conseils en architecture, conception et développement informatique</p>
+					
+					            <ul>
+					                <li>Accompagnement de l&#x27;équipe R&amp;D du SI</li>
+					                <li>Analyse et définition des interfaces entre l&#x27;existant et les nouveaux développements pour la gestion des stocks</li>
+					                <li>Participation aux différents travaux d&#x27;urbanisation du SI</li>
+					                <li>Revues d&#x27;architectures et de conceptions</li>
+					                <li>Formation des nouveaux développeurs à VueJs</li>
+					                <li></li>
+					                <li>Architecture-Urbanisation | .Net Core | Vue.js | Gravitee | OIDC | Azure Devops | MSSQL</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        ONEA
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">11/2021</span>
+					                        <span class="endDate"> - 03/2022</span>
+					                </h5>
+					            </div>
+					            <h4>Tech lead front (Vue.Js) | KS2</h4>
+					
+					            <p class="summary">Pilotage d&#x27;un projet de développement d&#x27;une plateforme de gestion des services</p>
+					
+					            <ul>
+					                <li>Suivi quotidien et hebdomadaire de l&#x27;équipe (Agile)</li>
+					                <li>Suivi du backlog et priorisation des nouvelles demandes</li>
+					                <li>Analyse fonctionnelle et technique</li>
+					                <li>Preuve de concept en Node/NestJs : étude de mise à l&#x27;échelle et de l&#x27;architecture hexagonale</li>
+					                <li>Développement Vuejs</li>
+					                <li></li>
+					                <li>Typescript | Nest.Js | Jira | Vue.js | Azure | Gitlab | OIDC | Postgresql</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://pasquier.fr" target="_blank">
+					                            Pasquier SA <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2018</span>
+					                        <span class="endDate"> - 12/2021</span>
+					                </h5>
+					            </div>
+					            <h4>Responsable SI du pôle R&amp;D</h4>
+					
+					            <p class="summary">Responsable d&#x27;une équipe de 4 personnes, en charge de l&#x27;industrialisation des développements web et .Net</p>
+					
+					            <ul>
+					                <li>Définition et mise en place des architectures web hautement disponibles pour le SI Pasquier</li>
+					                <li>Mise en place du comité d&#x27;urbanisation du SI</li>
+					                <li>Définition et intégration d&#x27;outils de supervision et de suivi opérationnel des applications web Pasquier (ALM, APM)</li>
+					                <li>Définition et mise à disposition de patrons d&#x27;architecture et de conception pour les équipes de développeurs (API, Hexagonale, DDD, CQRS, ...)</li>
+					                <li>Veille technologique et choix des technologies à intégrer au SI</li>
+					                <li>Conception, développement et maintien en conditions opérationnelle d&#x27;applications, d&#x27;outils et de briques applicatives techniques (authentification, internationalisation, ...)</li>
+					                <li>Définition et accompagnement des équipes de développement à la mise en place de méthodologies issues du manifeste agile (itération, revues, ...).</li>
+					                <li>Définition et mise en place des flux d&#x27;intégration continue et de déploiement continu (CI/CD)</li>
+					                <li>Formation et suivi des équipes de développement</li>
+					                <li>Management de proximité</li>
+					                <li></li>
+					                <li>Architecture-Urbanisation |.Net Core | APIM | Azure Devops | Vue.js | DDD | CQRS | Angular | MSSQL | Typescript</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://eseo.fr/" target="_blank">
+					                            E.S.E.O <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">12/2017</span>
+					                        <span class="endDate"> - 04/2020</span>
+					                </h5>
+					            </div>
+					            <h4>Formateur .Net/.Net core </h4>
+					
+					            <p class="summary">Intervenant quelques jours par an pour former les étudiants ingénieurs au développement .Net.</p>
+					
+					            <ul>
+					                <li>API Rest | .Net core | ASP .Net core</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Pasquier SA
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">05/2014</span>
+					                        <span class="endDate"> - 12/2017</span>
+					                </h5>
+					            </div>
+					            <h4>Concepteur - Développeur R&amp;D SI</h4>
+					
+					            <p class="summary">Développeur dans l&#x27;équipe R&amp;D SI.</p>
+					
+					            <ul>
+					                <li>Architecture, analyse, conception et développement d&#x27;outils .Net : accès aux données, validation, i18n, configuration, patterns, ...</li>
+					                <li>Recueil du besoin, analyse, développement, et maintien opérationnel de blocs applicatifs</li>
+					                <li>Accompagnement des développeurs métier : formations, suivi, revues de code, échanges.</li>
+					                <li>Administration TFS/Azure Devops</li>
+					                <li></li>
+					                <li>C# | Net 3.5-4.* | Azure Devops | MSSQL | ISeries SQL</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Serac Shared Services
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">03/2014</span>
+					                        <span class="endDate"> - 12/2014</span>
+					                </h5>
+					            </div>
+					            <h4>Développeur indépendant</h4>
+					
+					            <p class="summary">Audit Logiciel et développement.</p>
+					
+					            <ul>
+					                <li>Rétro-ingénierie</li>
+					                <li>Analyse applicative et fonctionnelle d&#x27;un ensemble d&#x27;applications</li>
+					                <li>Migration d&#x27;applications du service achat en .NET</li>
+					                <li></li>
+					                <li>VB.Net | C# | .Net 3.5-4.*</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Anovo
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">09/2012</span>
+					                        <span class="endDate"> - 03/2014</span>
+					                </h5>
+					            </div>
+					            <h4>Développeur .Net</h4>
+					
+					            <p class="summary">Participation au développement d&#x27;EManager ; ERP dédié aux métiers du reconditionnement électronique (Orange, DELL, HP, VOO).</p>
+					
+					            <ul>
+					                <li>Maintenance et évolutions de l&#x27;application développée en .NET.Net</li>
+					                <li>Mise en place d&#x27;une architecture N&#x27;Tiers</li>
+					                <li>Développement d&#x27;une librairie d&#x27;abstraction des EDI avec les transporteurs (UPS, DHL, Chronopost, DPD)</li>
+					                <li></li>
+					                <li>.Net 3.5-4.* | Winform | MSSQL</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Restoria
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">05/2010</span>
+					                        <span class="endDate"> - 09/2012</span>
+					                </h5>
+					            </div>
+					            <h4>Technicien IT / Développeur</h4>
+					
+					            <p class="summary">Développement et maintien opérationnels d&#x27;applications métiers.</p>
+					
+					            <ul>
+					                <li>Administration MS SQL Server 2005/2008 et mise en place des plans de sauvegarde des bases de données de la société Restoria</li>
+					                <li>Mise en place d&#x27;un outil de reporting centralisé : SQL Server Reporting Services</li>
+					                <li>Développement d&#x27;un extranet de suivi de commandes de repas (liaison froide)</li>
+					                <li>Maintenance et amélioration d&#x27;une application de scans (Windows CE)</li>
+					                <li>Développement d&#x27;un générateur de menus : outil de conception des menus pour les services diététiques et communication</li>
+					                <li></li>
+					                <li>Javascript | JQuery | PHP | .Net 3.5-4.* | Winform | MSSQL</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Développeur indépendant
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2008</span>
+					                        <span class="endDate"> - 01/2012</span>
+					                </h5>
+					            </div>
+					
+					            <p class="summary">Premiers développements informatiques professionnels, principalement un Micro ERP pour l&#x27;entreprise Rayer Pneus</p>
+					
+					            <ul>
+					                <li>Micro ERP (stock, bon de commande, facturation</li>
+					                <li></li>
+					                <li>PHP | Javascript</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Vies antérieures
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">02/1996</span>
+					                        <span class="endDate"> - 12/2010</span>
+					                </h5>
+					            </div>
+					            <h4>Multiple</h4>
+					
+					            <p class="summary">Avant de me professionnaliser dans l&#x27;informatique, j&#x27;ai eu plusieurs autres vies, dans le désordre: </p>
+					
+					            <ul>
+					                <li>Technicien son au Studio Blue Cry (Belgique)</li>
+					                <li>Sonorisateur dans l&#x27;évènementiel</li>
+					                <li>Hotline pour un fournisseur de décodeurs TV</li>
+					                <li>Animateur socio-culturel</li>
+					                <li></li>
+					                <li>Travail en équipe | Sens du service</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container education-container">
+					    <div class="title">
+					        <h3>Education</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Formation continue
+					                </h3>
+					                <h5 class="italic pull-right">
+					                </h5>
+					            </div>
+					            <h4></h4>
+					
+					
+					            <ul class="two-column">
+					                <li>WOA, Architecture orientée web (Orsys)</li>
+					                <li>Conception et designa pattern (Orsys)</li>
+					                <li>Fondements de l&#x27;agilité (OnePoint)</li>
+					                <li>Communiquer et coopérer efficacement (Regard9 / Pasquier)</li>
+					                <li>Manager au quotidien (Pasquier)</li>
+					                <li>Entretien d&#x27;analyse au travail et entretien professionnel (Pasquier)</li>
+					                <li>Optimisation SQL (Frédérique Brouard)</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        CNAM Angers
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">09/2012</span>
+					                        <span class="endDate"> - 08/2013</span>
+					                </h5>
+					            </div>
+					            <h4>Master I Concepteur, architecte informatique</h4>
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        CNAM Angers
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">09/2011</span>
+					                        <span class="endDate"> - 08/2012</span>
+					                </h5>
+					            </div>
+					            <h4>Licence Développement informatique</h4>
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        AFPA Angers
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">09/2008</span>
+					                        <span class="endDate"> - 08/2010</span>
+					                </h5>
+					            </div>
+					            <h4>DEUST Informatique de gestion</h4>
+					
+					
+					        </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
