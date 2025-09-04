@@ -26,9 +26,7 @@ export default function ProfileSection() {
               </p>
               
               <p className="text-lg text-primary-blue leading-relaxed">
-                Grâce à mon approche centrée sur les résultats, l'attention aux détails, la précision, la proactivité, la vaste expertise et l'efficacité, un taux de satisfaction de 100% n'est pas étonnant.
-              </p>
-              
+                Mon approche repose sur l'écoute, la rigueur, le souci du détail et la réactivité. Elle se traduit par un haut niveau de satisfaction client. </p>              
               <p className="text-lg text-primary-blue leading-relaxed">
                 Voyons comment je peux vous aider à réussir !
               </p>
