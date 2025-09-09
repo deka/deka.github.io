@@ -1,0 +1,20 @@
+{
+    "folders": [
+      {
+        "path": "./",
+        "name": "project-root",
+      },
+      {
+        "path": "./packages/jsonresume-theme-dev-ats",
+        "name": "jsonresume-theme-dev-ats",
+      },
+      
+    ],
+    "settings": {
+      "jest.disabledWorkspaceFolders": [
+                "project-root",
+                "jsonresume-theme-dev-ats",
+      ],
+      "jest.rootPath": "",
+    },
+  }

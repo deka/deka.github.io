@@ -1,0 +1,17 @@
+{{#if resume.work.length}}
+<section id="work">
+    <h2>Work Experience</h2>
+    {{#each resume.work}}
+        {{#> item title=name subtitle=position startDate=startDate endDate=endDate}}
+
+        {{#if highlights.length}}
+        <ul class="highlights">
+            {{#each highlights}}
+            <li>{{{.}}}</li>
+            {{/each}}
+        </ul>
+        {{/if}}
+        {{/item}}
+    {{/each}}
+</section>
+{{/if}}

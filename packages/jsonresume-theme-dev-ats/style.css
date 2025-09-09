@@ -1,0 +1,153 @@
+/* Template level */
+body {
+    font-family: Georgia, serif;
+    font-size: 11px;
+    margin: 24px 48px;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    margin: 5px;
+}
+
+h2 {
+    border-width: 1px;
+    border-style: none none solid none;
+    margin: 10px 0 2.5px 0;
+}
+
+section {
+    margin: 3px 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    margin-top: 8px;
+}
+
+.item>.item-header {
+    float: left;
+    display: block;
+}
+
+.item>.item-header>.item-header-title {
+    font-weight: bold;
+}
+
+.item>.item-header>.item-header-subtitle {
+    font-style: italic;
+}
+
+.item>.item-details {
+    float: right;
+    text-align: right;
+}
+
+.item>.item-details>.item-details-title {
+    font-weight: bold;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Section specific */
+/* basics */
+.vertical-separator {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.vertical-separator:not(:first-child) {
+    border-left: 1px solid #000;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.col {
+    flex: 1;
+    min-width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+}
+.title-subtitle {
+    flex: 1;
+    min-width: 80px;
+}
+.url {
+    margin-left: 20px;
+    word-break: break-all; 
+    overflow-wrap: break-word; 
+}
+a {
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+.highlights li:empty {
+    list-style-type: " ";
+}
+
+.highlights li:last-child {
+    list-style-type: "\27AE";
+}
+
+/* Set some print settings. */
+@media print {
+    @page {
+        size: portrait;
+        margin: 10mm 25mm;
+    }
+    .resume {
+        max-width: 100%;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    body,
+    html,
+    .resume {
+        margin: 0px;
+        padding: 0px;
+    }
+    .controls {
+        display: none;
+    }
+    .section {
+        page-break-inside: avoid; 
+        margin-bottom: 20px; 
+    }
+
+    .section h2 {
+        page-break-after: avoid; 
+    }
+
+    .row, .col {
+        page-break-inside: avoid; 
+    }
+}

@@ -5,7 +5,7 @@
         "label": "Architecte | Tech Lead | API Management",
         "picture": "portrait.png",
         "website": "",
-        "summary": "",
+        "summary": "Développeur et architecte avec plus de 15 ans d’expérience, j’ai travaillé sur des projets variés, du front au back en passant par l’API management. J’aime comprendre les besoins, concevoir des solutions simples et efficaces, puis les faire vivre dans le temps. Habitué aux environnements exigeants, je privilégie la collaboration et le partage pour avancer avec les équipes.",
         "location": {
             "city": "Angers",
             "countryCode": "FR"
@@ -14,13 +14,12 @@
             {
                 "network": "Linkedin",
                 "username": "Dimitri Rayer",
-                "url": "https://www.linkedin.com/in/dimitri-rayer-63458776/"
+                "url": "https://www.linkedin.com/in/dimitri-rayer/"
             }                       
         ]
     },
     "work": [{
         "company": "ONEA",
-        "location": "Maine et Loire",
         "position": "Développeur full stack | Atlantic",
         "startDate": "2024-06",
         "summary": "Prestations de conception et développement d'un configurateur de chaudière",
@@ -34,8 +33,7 @@
       },      
       {
         "company": "ONEA",
-        "location": "Maine et Loire",
-        "position": "Développeur full stack | Brioche Pasquier",
+       "position": "Développeur full stack | Brioche Pasquier",
         "startDate": "2025-03",
         "summary": "Prestations de conception et développement d'une application de rapprochement des factures clients",
         "highlights": [
@@ -47,7 +45,6 @@
       },
       {
         "company": "ONEA",
-        "location": "Maine et Loire",
         "position": "Architecte Solution | BPCE",
         "startDate": "2025-01",
         "summary": "Architecte Solution sur les problématiques d'API Management'",
@@ -61,7 +58,6 @@
       {
         "company": "Agreeable",
         "website": "https://www.agreeable.fr/",
-        "location": "France",
         "position": "Fondateur associé | Tech",
         "startDate": "2024-06",
         "summary": "Développement et maintien opérationnel d'une solution de cartes cadeaux respectueuses de l'environnement.",
@@ -75,8 +71,7 @@
       },      
       {
         "company": "ONEA",
-        "location": "Maine et Loire",
-        "position": "Tech lead full stack | Brioche Pasquier",
+       "position": "Tech lead full stack | Brioche Pasquier",
         "startDate": "2024-03",
         "endDate": "2024-05",
         "summary": "Prestations de conception et développement d'une application de réduction de l'empreinte carbone",
@@ -89,7 +84,6 @@
       },
       {
         "company": "C.N.A.M",
-        "location": "Maine et Loire",
         "position": "Architecte du S.I",
         "startDate": "2023-10",
         "endDate": "2023-12",
@@ -103,7 +97,6 @@
       },
       {
         "company": "ONEA",
-        "location": "Maine et Loire",
         "position": "Développeur back end R&D | Soget",
         "startDate": "2023-09",
         "summary": "Accompagnement dans la mise en place d'une solution de télémetrie",
@@ -118,7 +111,6 @@
       },
       {
         "company": "ONEA",
-        "location": "Maine et Loire",
         "position": "Tech lead front (Vue.Js) | KS2",
         "startDate": "2022-06",
         "endDate": "2023-10",
@@ -133,7 +125,6 @@
       },
       {
         "company": "ONEA",
-        "location": "Maine et Loire",
         "position": "Architecte solution | Soget",
         "startDate": "2022-07",
         "endDate": "2023-07",
@@ -149,7 +140,6 @@
       },
       {
         "company": "ONEA",
-        "location": "Maine et Loire",
         "position": "Architecte IT | Brioche Pasquier",
         "startDate": "2022-01",
         "endDate": "2023-07",
@@ -166,7 +156,6 @@
       },
       {
         "company": "ONEA",
-        "location": "Maine et Loire",
         "position": "Tech lead front (Vue.Js) | KS2",
         "startDate": "2021-11",
         "endDate": "2022-03",
@@ -183,7 +172,6 @@
       },
       {
         "company": "Pasquier SA",
-        "location": "Maine et Loire",
         "position": "Responsable SI du pôle R&D",
         "website": "https://pasquier.fr",
         "startDate": "2018-01",
@@ -206,7 +194,6 @@
       },
       {
         "company": "E.S.E.O",
-        "location": "",
         "position": "Formateur .Net/.Net core ",
         "website": "https://eseo.fr/",
         "startDate": "2017-12",
@@ -216,7 +203,6 @@
       },
       {
         "company": "Pasquier SA",
-        "location": "",
         "position": "Concepteur - Développeur R&D SI",
         "website": "",
         "startDate": "2014-05",
@@ -233,8 +219,7 @@
       },
       {
         "company": "Serac Shared Services",
-        "location": "",
-        "position": "Développeur indépendant",
+       "position": "Développeur indépendant",
         "website": "",
         "startDate": "2014-03",
         "endDate": "2014-12",
@@ -249,7 +234,6 @@
       },
       {
         "company": "Anovo",
-        "location": "",
         "position": "Développeur .Net",
         "website": "",
         "startDate": "2012-09",
@@ -265,7 +249,6 @@
       },
       {
         "company": "Restoria",
-        "location": "",
         "position": "Technicien IT / Développeur",
         "website": "",
         "startDate": "2010-05",
@@ -283,7 +266,6 @@
       },
       {
         "company": "Développeur indépendant",
-        "location": "",
         "position": "",
         "website": "",
         "startDate": "2008-01",
@@ -297,8 +279,7 @@
       },
       {
         "company": "Vies antérieures",
-        "location": "",
-        "position": "Multiple",
+         "position": "Multiple",
         "website": "",
         "startDate": "1996-02",
         "endDate": "2010-12",

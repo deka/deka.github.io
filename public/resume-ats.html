@@ -1,0 +1,689 @@
+<!doctype html>
+<html>
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+    <title>Dimitri Rayer</title>
+
+    <style>
+    /* Template level */
+body {
+    font-family: Georgia, serif;
+    font-size: 11px;
+    margin: 24px 48px;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    margin: 5px;
+}
+
+h2 {
+    border-width: 1px;
+    border-style: none none solid none;
+    margin: 10px 0 2.5px 0;
+}
+
+section {
+    margin: 3px 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    margin-top: 8px;
+}
+
+.item>.item-header {
+    float: left;
+    display: block;
+}
+
+.item>.item-header>.item-header-title {
+    font-weight: bold;
+}
+
+.item>.item-header>.item-header-subtitle {
+    font-style: italic;
+}
+
+.item>.item-details {
+    float: right;
+    text-align: right;
+}
+
+.item>.item-details>.item-details-title {
+    font-weight: bold;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Section specific */
+/* basics */
+.vertical-separator {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.vertical-separator:not(:first-child) {
+    border-left: 1px solid #000;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.col {
+    flex: 1;
+    min-width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+}
+.title-subtitle {
+    flex: 1;
+    min-width: 80px;
+}
+.url {
+    margin-left: 20px;
+    word-break: break-all; 
+    overflow-wrap: break-word; 
+}
+a {
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+.highlights li:empty {
+    list-style-type: " ";
+}
+
+.highlights li:last-child {
+    list-style-type: "\27AE";
+}
+
+/* Set some print settings. */
+@media print {
+    @page {
+        size: portrait;
+        margin: 10mm 25mm;
+    }
+    .resume {
+        max-width: 100%;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    body,
+    html,
+    .resume {
+        margin: 0px;
+        padding: 0px;
+    }
+    .controls {
+        display: none;
+    }
+    .section {
+        page-break-inside: avoid; 
+        margin-bottom: 20px; 
+    }
+
+    .section h2 {
+        page-break-after: avoid; 
+    }
+
+    .row, .col {
+        page-break-inside: avoid; 
+    }
+}
+    </style>
+
+    </head>
+    <body>
+
+    <div id="resume">
+        <div class="section">
+            <section id="basics">
+                <h1>Dimitri Rayer</h1>
+                <div class="contact centered">
+            <span class="vertical-separator">Architecte | Tech Lead | API Management</span>        <span class="vertical-separator">Angers, FR</span>
+                </div>
+                <div class="summary">
+                    <h2>Summary</h2>
+                    <p>Développeur et architecte avec plus de 15 ans d’expérience, j’ai travaillé sur des projets variés, du front au back en passant par l’API management. J’aime comprendre les besoins, concevoir des solutions simples et efficaces, puis les faire vivre dans le temps. Habitué aux environnements exigeants, je privilégie la collaboration et le partage pour avancer avec les équipes.</p>
+                </div>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul class="item">
+                    <li>
+                        <strong>Architecture</strong>: ALM, Api Rest, (Gravitee | Azure APIM), OIDC, CQRS, DDD, Hexagonale, APM | OpenTelemetry
+                    </li>
+                    <li>
+                        <strong>Management</strong>: Bienveillance, Proximité, Agile, Délégation, 'Problem-solving'
+                    </li>
+                    <li>
+                        <strong>Dev.</strong>: Typescript, Vue.js 2-3, , Node, NestJs, .Net core, PHP, IIS, Rest, WCF, Azure Devops, Nugget, Open XML
+                    </li>
+                    <li>
+                        <strong>Data</strong>: Sql server, SSIS, SSRS, ISeries, MySql, PostgreSQL, Elasticsearch, Firestore
+                    </li>
+                </ul>
+            </section>
+            <section id="work">
+                <h2>Work Experience</h2>
+            <div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Développeur full stack | Atlantic
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Jun 2024 — Present
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Application à destination des installateur pour simplifier la configuration des chaudières Atlantic</li>
+                            <li>Architecture, analyse, conception et développement web</li>
+                            <li>Maintien en condition opérationnelle</li>
+                            <li></li>
+                            <li>Vue.js | Nuxt.js | Azure Devops</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Développeur full stack | Brioche Pasquier
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Mar 2025 — Present
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Application de rapprochement des factures clients hors EDI</li>
+                            <li>Audit, architecture, conception et développement web</li>
+                            <li></li>
+                            <li>.Net Core | Vue.js | Azure Devops | MSSQL | ISeries</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Architecte Solution | BPCE
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Jan 2025 — Present
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Accompagnement des équipes de développement, pour le cadrage et la mise en place de passerelles d'API</li>
+                            <li>Accompagnement des équipes de développement dans leurs problématiques d'authentification et de sécurisation des API</li>
+                            <li></li>
+                            <li>API Management | Axway | OAuth2 | Confluence | Jira</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Fondateur associé | Tech
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Jun 2024 — Present
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Traduction de la vision stratégique en solutions technologiques</li>
+                            <li>Développement de la solution (Front, API, Backoffice, ...)</li>
+                            <li>Gestion de projets</li>
+                            <li></li>
+                            <li>PHP | Symfony | PostgreSQL | API Rest | Github</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Tech lead full stack | Brioche Pasquier
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Mar 2024 — May 2024
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Application de mesure de l'empreinte carbone d'un salarié</li>
+                            <li>Audit, architecture, conception et développement web</li>
+                            <li></li>
+                            <li>.Net Core | Vue.js | Azure Devops | MSSQL</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Architecte du S.I
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Oct 2023 — Dec 2023
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Participation aux réunions quotidiennes (Daily stand-up)</li>
+                            <li>Participation aux rénuions de conception de l'autorité (Grooming)</li>
+                            <li></li>
+                            <li>JIRA | Confluence | MEGA HOPEX</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Développeur back end R&amp;D | Soget
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Sep 2023 — Present
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Etude de différentes solutions de télémétrie pour la supervision globale du SI SOGET (SigNoz, Azure Monitor, Jaeger, Grafana ...). </li>
+                            <li>Définition de l'architecture cible.</li>
+                            <li>Définition des bonnes pratiques pour l'instrumentation des applicatifs, la collecte des données de télémétrie et la restitution</li>
+                            <li>POC, ADR, dossier d'architecture</li>
+                            <li></li>
+                            <li>OpenTelemetry | Azure Monitor | SigNoz | Jaeger | Grafana | Docker | .Net Core | ASP MVC | Azure Devops</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Tech lead front (Vue.Js) | KS2
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Jun 2022 — Oct 2023
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Mise en place de l'architecture front de la solution</li>
+                            <li>Accompagnement de l'équipe de développement</li>
+                            <li>Mise en place d'un générateur de composants dynamiques (JSON components)</li>
+                            <li></li>
+                            <li>Vue.js 3 | Tailwind | Pinia | API Rest | Github</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Architecte solution | Soget
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Jul 2022 — Jul 2023
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Définition de l'architecture cible</li>
+                            <li>Rédaction de spécifications techniques et fonctionnelles</li>
+                            <li>Mise en place d'un portail de documentation (Bump.sh)</li>
+                            <li>Accompagnement des développeurs pour les 4 briques identifiées : Access, Keys, Sales, Documentation</li>
+                            <li></li>
+                            <li>API Management | Azure APIM | OIDC - Keycloack | Azure Devops | .Net Core | ASP MVC</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Architecte IT | Brioche Pasquier
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Jan 2022 — Jul 2023
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Accompagnement de l'équipe R&D du SI</li>
+                            <li>Analyse et définition des interfaces entre l'existant et les nouveaux développements pour la gestion des stocks</li>
+                            <li>Participation aux différents travaux d'urbanisation du SI</li>
+                            <li>Revues d'architectures et de conceptions</li>
+                            <li>Formation des nouveaux développeurs à VueJs</li>
+                            <li></li>
+                            <li>Architecture-Urbanisation | .Net Core | Vue.js | Gravitee | OIDC | Azure Devops | MSSQL</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Tech lead front (Vue.Js) | KS2
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Nov 2021 — Mar 2022
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Suivi quotidien et hebdomadaire de l'équipe (Agile)</li>
+                            <li>Suivi du backlog et priorisation des nouvelles demandes</li>
+                            <li>Analyse fonctionnelle et technique</li>
+                            <li>Preuve de concept en Node/NestJs : étude de mise à l'échelle et de l'architecture hexagonale</li>
+                            <li>Développement Vuejs</li>
+                            <li></li>
+                            <li>Typescript | Nest.Js | Jira | Vue.js | Azure | Gitlab | OIDC | Postgresql</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Responsable SI du pôle R&amp;D
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Jan 2018 — Dec 2021
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Définition et mise en place des architectures web hautement disponibles pour le SI Pasquier</li>
+                            <li>Mise en place du comité d'urbanisation du SI</li>
+                            <li>Définition et intégration d'outils de supervision et de suivi opérationnel des applications web Pasquier (ALM, APM)</li>
+                            <li>Définition et mise à disposition de patrons d'architecture et de conception pour les équipes de développeurs (API, Hexagonale, DDD, CQRS, ...)</li>
+                            <li>Veille technologique et choix des technologies à intégrer au SI</li>
+                            <li>Conception, développement et maintien en conditions opérationnelle d'applications, d'outils et de briques applicatives techniques (authentification, internationalisation, ...)</li>
+                            <li>Définition et accompagnement des équipes de développement à la mise en place de méthodologies issues du manifeste agile (itération, revues, ...).</li>
+                            <li>Définition et mise en place des flux d'intégration continue et de déploiement continu (CI/CD)</li>
+                            <li>Formation et suivi des équipes de développement</li>
+                            <li>Management de proximité</li>
+                            <li></li>
+                            <li>Architecture-Urbanisation |.Net Core | APIM | Azure Devops | Vue.js | DDD | CQRS | Angular | MSSQL | Typescript</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Formateur .Net/.Net core 
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Dec 2017 — Apr 2020
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>API Rest | .Net core | ASP .Net core</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Concepteur - Développeur R&amp;D SI
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        May 2014 — Dec 2017
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Architecture, analyse, conception et développement d'outils .Net : accès aux données, validation, i18n, configuration, patterns, ...</li>
+                            <li>Recueil du besoin, analyse, développement, et maintien opérationnel de blocs applicatifs</li>
+                            <li>Accompagnement des développeurs métier : formations, suivi, revues de code, échanges.</li>
+                            <li>Administration TFS/Azure Devops</li>
+                            <li></li>
+                            <li>C# | Net 3.5-4.* | Azure Devops | MSSQL | ISeries SQL</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Développeur indépendant
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Mar 2014 — Dec 2014
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Rétro-ingénierie</li>
+                            <li>Analyse applicative et fonctionnelle d'un ensemble d'applications</li>
+                            <li>Migration d'applications du service achat en .NET</li>
+                            <li></li>
+                            <li>VB.Net | C# | .Net 3.5-4.*</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Développeur .Net
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Sep 2012 — Mar 2014
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Maintenance et évolutions de l'application développée en .NET.Net</li>
+                            <li>Mise en place d'une architecture N'Tiers</li>
+                            <li>Développement d'une librairie d'abstraction des EDI avec les transporteurs (UPS, DHL, Chronopost, DPD)</li>
+                            <li></li>
+                            <li>.Net 3.5-4.* | Winform | MSSQL</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Technicien IT / Développeur
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        May 2010 — Sep 2012
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Administration MS SQL Server 2005/2008 et mise en place des plans de sauvegarde des bases de données de la société Restoria</li>
+                            <li>Mise en place d'un outil de reporting centralisé : SQL Server Reporting Services</li>
+                            <li>Développement d'un extranet de suivi de commandes de repas (liaison froide)</li>
+                            <li>Maintenance et amélioration d'une application de scans (Windows CE)</li>
+                            <li>Développement d'un générateur de menus : outil de conception des menus pour les services diététiques et communication</li>
+                            <li></li>
+                            <li>Javascript | JQuery | PHP | .Net 3.5-4.* | Winform | MSSQL</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Jan 2008 — Jan 2012
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Micro ERP (stock, bon de commande, facturation</li>
+                            <li></li>
+                            <li>PHP | Javascript</li>
+                        </ul>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-subtitle">
+                        Multiple
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Feb 1996 — Dec 2010
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                        <ul class="highlights">
+                            <li>Technicien son au Studio Blue Cry (Belgique)</li>
+                            <li>Sonorisateur dans l'évènementiel</li>
+                            <li>Hotline pour un fournisseur de décodeurs TV</li>
+                            <li>Animateur socio-culturel</li>
+                            <li></li>
+                            <li>Travail en équipe | Sens du service</li>
+                        </ul>
+            </div></section>
+        </div>
+        <div class="section">
+        </div>
+        <div class="section">
+            <section id="education">
+                <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <div class="item-header-title">
+                        Formation continue
+                    </div>
+                </div>
+                <div class="item-details">
+                </div>
+                <div class="clearfix"></div>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-title">
+                        CNAM Angers
+                    </div>
+                    <div class="item-header-subtitle">
+                        Master I
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Sep 2012 — Aug 2013
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-title">
+                        CNAM Angers
+                    </div>
+                    <div class="item-header-subtitle">
+                        Licence
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Sep 2011 — Aug 2012
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div><div class="item">
+                <div class="item-header">
+                    <div class="item-header-title">
+                        AFPA Angers
+                    </div>
+                    <div class="item-header-subtitle">
+                        DEUST
+                    </div>
+                </div>
+                <div class="item-details">
+                    <div class="date">
+                        Sep 2008 — Aug 2010
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div></section>
+        </div>
+        <div class="section">
+            <section id="profiles">
+                <h2>Profiles</h2>
+                <div class="item">
+                        <div class="row">
+                            <div class="col">
+                                
+                                    <div class="profile-details">
+                                        <div class="title-subtitle">
+                                            <div class="item">
+                <div class="item-header">
+                    <div class="item-header-title">
+                        Linkedin
+                    </div>
+                    <div class="item-header-subtitle">
+                        Dimitri Rayer
+                    </div>
+                </div>
+                <div class="item-details">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+                                        </div>
+                                        <div class="url">
+                                            <a href="https://www.linkedin.com/in/dimitri-rayer/"><a href="https://www.linkedin.com/in/dimitri-rayer/">www.linkedin.com/in/dimitri-rayer/</a></a>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="section">
+        </div>
+        <div class="section">
+        </div>
+        <div class="section">
+        </div>
+    </div>
+    
+    </body>
+</html>
