@@ -18,10 +18,27 @@
             }                       
         ]
     },
-    "work": [{
+    "work": [
+      {
+      "company": "ONEA",
+      "position": "Architecte Solution ",
+      "location": "BPCE | Temps partiel",
+      "startDate": "2025-01",
+      "endDate": "2025-07",
+      "summary": "Architecte Solution sur les problématiques d'API Management'",
+      "highlights": [
+        "Accompagnement des équipes de développement, pour le cadrage et la mise en place de passerelles d'API",
+        "Accompagnement des équipes de développement dans leurs problématiques d'authentification et de sécurisation des API",
+        "",
+        "API Management | Axway | OAuth2 | Confluence | Jira"
+      ]
+    },
+    {
         "company": "ONEA",
-        "position": "Développeur full stack | Atlantic",
+        "location": "Atlantic | Temps partiel",
+        "position": "Architecte logiciels | Développeur full stack",
         "startDate": "2024-06",
+        "endDate": "2025-07",
         "summary": "Prestations de conception et développement d'un configurateur de chaudière",
         "highlights": [
           "Application à destination des installateur pour simplifier la configuration des chaudières Atlantic",
@@ -33,8 +50,10 @@
       },      
       {
         "company": "ONEA",
-       "position": "Développeur full stack | Brioche Pasquier",
+        "location": "Brioche Pasquier | Temps partiel",
+        "position": "Architecte logiciels | Développeur full stack ",
         "startDate": "2025-03",
+        "endDate": "2025-07",
         "summary": "Prestations de conception et développement d'une application de rapprochement des factures clients",
         "highlights": [
           "Application de rapprochement des factures clients hors EDI",
@@ -42,23 +61,12 @@
           "",
           ".Net Core | Vue.js | Azure Devops | MSSQL | ISeries"
         ]
-      },
+      },      
       {
         "company": "ONEA",
-        "position": "Architecte Solution | BPCE",
-        "startDate": "2025-01",
-        "summary": "Architecte Solution sur les problématiques d'API Management'",
-        "highlights": [
-          "Accompagnement des équipes de développement, pour le cadrage et la mise en place de passerelles d'API",
-          "Accompagnement des équipes de développement dans leurs problématiques d'authentification et de sécurisation des API",
-          "",
-          "API Management | Axway | OAuth2 | Confluence | Jira"
-        ]
-      },
-      {
-        "company": "Agreeable",
         "website": "https://www.agreeable.fr/",
         "position": "Fondateur associé | Tech",
+        "location": "Agreeable | Temps partiel",
         "startDate": "2024-06",
         "summary": "Développement et maintien opérationnel d'une solution de cartes cadeaux respectueuses de l'environnement.",
         "highlights": [
@@ -71,7 +79,8 @@
       },      
       {
         "company": "ONEA",
-       "position": "Tech lead full stack | Brioche Pasquier",
+        "position": "Architecte logiciels | Développeur full stack ",
+        "location": "Brioche Pasquier | Temps partiel",
         "startDate": "2024-03",
         "endDate": "2024-05",
         "summary": "Prestations de conception et développement d'une application de réduction de l'empreinte carbone",
@@ -83,8 +92,9 @@
         ]
       },
       {
-        "company": "C.N.A.M",
-        "position": "Architecte du S.I",
+        "company": "ONEA",
+        "position": "Architecte Solution",
+        "location": "CNAM | Temps partiel",
         "startDate": "2023-10",
         "endDate": "2023-12",
         "summary": "Architecte Solution au sein de l'autorité responsable de la conception (Design authority) pour 'Mon Espace Santé'",
@@ -97,8 +107,10 @@
       },
       {
         "company": "ONEA",
-        "position": "Développeur back end R&D | Soget",
+        "position": "Développeur back end R&D",
+        "location": "Soget",
         "startDate": "2023-09",
+        "endDate": "2023-10",
         "summary": "Accompagnement dans la mise en place d'une solution de télémetrie",
         "highlights": [
           "Etude de différentes solutions de télémétrie pour la supervision globale du SI SOGET (SigNoz, Azure Monitor, Jaeger, Grafana ...). ",
@@ -111,7 +123,8 @@
       },
       {
         "company": "ONEA",
-        "position": "Tech lead front (Vue.Js) | KS2",
+        "position": "Tech lead front (Vue.Js)",
+        "location": "KS2 | Temps partiel",
         "startDate": "2022-06",
         "endDate": "2023-10",
         "summary": "Audit, conception et développement Vue.js 3",
@@ -125,7 +138,8 @@
       },
       {
         "company": "ONEA",
-        "position": "Architecte solution | Soget",
+        "position": "Architecte solution",
+        "location": "Soget | Temps partiel",
         "startDate": "2022-07",
         "endDate": "2023-07",
         "summary": "Accompagnement dans la mise en place d'une solution d'API management",
@@ -140,7 +154,8 @@
       },
       {
         "company": "ONEA",
-        "position": "Architecte IT | Brioche Pasquier",
+        "position": "Architecte logiciels | Développeur full stack ",
+        "location": "Brioche Pasquier | Temps partiel",
         "startDate": "2022-01",
         "endDate": "2023-07",
         "summary": "Prestations de conseils en architecture, conception et développement informatique",
@@ -156,7 +171,8 @@
       },
       {
         "company": "ONEA",
-        "position": "Tech lead front (Vue.Js) | KS2",
+        "position": "Tech lead front (Vue.Js)",
+        "location": "BAYA Consultings",
         "startDate": "2021-11",
         "endDate": "2022-03",
         "summary": "Pilotage d'un projet de développement d'une plateforme de gestion des services",
@@ -353,14 +369,14 @@
             ]
         },
         {
-            "name": "Management",
+            "name": "Soft",
             "level": "",
             "keywords": [
                 "Bienveillance",
-                "Proximité",
+                "Management de proximité",
                 "Agile",
                 "Délégation",
-                "'Problem-solving'"
+                "Problem-solving"
             ]
         },
         {

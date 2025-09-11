@@ -44,6 +44,10 @@ a {
     font-weight: bold;
 }
 
+.item>.item-header>.item-header-prepend {
+    font-weight: bold;
+}
+
 .item>.item-header>.item-header-subtitle {
     font-style: italic;
 }

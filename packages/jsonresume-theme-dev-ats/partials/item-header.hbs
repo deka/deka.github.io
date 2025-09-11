@@ -1,4 +1,9 @@
 <div class="item-header">
+    {{#if prepend}}
+    <div class="item-header-prepend">
+        {{prepend}}
+    </div>
+    {{/if}}
     {{#if title}}
     <div class="item-header-title">
         {{title}}
