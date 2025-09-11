@@ -5,6 +5,11 @@ body {
     margin: 24px 48px;
 }
 
+#resume {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 h1 {
     font-size: 26px;
     text-align: center;
