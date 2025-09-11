@@ -10,7 +10,7 @@ export default function FooterSection() {
               Copyright © Dimitri Rayer, 2025. Tous droits réservés.
             </p>
             <p className="text-gray-400 text-xs mt-2">
-              Tech Lead & Strategic Translator - Développement et conseil IT
+              Tech Lead & Architecte solution - Développement et conseil IT
             </p>
           </div>
           <div className="flex justify-center space-x-6 ">

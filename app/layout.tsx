@@ -5,9 +5,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Dimitri Rayer - Tech Lead & Strategic Translator',
-  description: 'Développeur expérimenté avec plus de 16 ans d\'expérience dans la livraison de projets IT complexes pour des partenaires américains, britanniques et européens.',
-  keywords: ['Dimitri Rayer', 'Tech Lead', 'Strategic Translator', 'Développeur', 'IT', 'Consultant'],
+  title: 'Dimitri Rayer - Tech Lead & Architecte solution',
+  description: 'Développeur expérimenté avec plus de 16 ans d\'expérience dans la livraison de projets IT complexes pour des partenaires européens.',
+  keywords: ['Dimitri Rayer', 'Tech Lead', 'Architecte solution', 'Développeur', 'IT', 'Consultant'],
   authors: [{ name: 'Dimitri Rayer' }],
   creator: 'Dimitri Rayer',
   publisher: 'Dimitri Rayer',
@@ -21,16 +21,16 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Dimitri Rayer - Tech Lead & Strategic Translator',
+    title: 'Dimitri Rayer - Tech Lead & Architecte solution',
     description: 'Développeur expérimenté avec plus de 16 ans d\'expérience dans la livraison de projets IT complexes.',
     url: 'https://deka.github.io/',
     siteName: 'Dimitri Rayer',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/logo-cercle.png',
         width: 1200,
         height: 630,
-        alt: 'Dimitri Rayer - Tech Lead & Strategic Translator',
+        alt: 'Dimitri Rayer - Tech Lead & Architecte solution',
       },
     ],
     locale: 'fr_FR',
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dimitri Rayer - Tech Lead & Strategic Translator',
+    title: 'Dimitri Rayer - Tech Lead & Architecte solution',
     description: 'Développeur expérimenté avec plus de 16 ans d\'expérience dans la livraison de projets IT complexes.',
-    images: ['/og-image.jpg'],
+    images: ['/log-cercle.png'],
   },
   robots: {
     index: true,
