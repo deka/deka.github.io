@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Dimitri Rayer - Tech Lead & Architecte solution',
   description: 'Développeur expérimenté avec plus de 16 ans d\'expérience dans la livraison de projets IT complexes pour des partenaires européens.',
-  keywords: ['Dimitri Rayer', 'Tech Lead', 'Architecte solution', 'Développeur', 'IT', 'Consultant'],
+  keywords: ['Dimitri Rayer', 'ONEA', 'Tech Lead', 'Architecte solution', 'Développeur', 'IT', 'Consultant'],
   authors: [{ name: 'Dimitri Rayer' }],
   creator: 'Dimitri Rayer',
   publisher: 'Dimitri Rayer',
