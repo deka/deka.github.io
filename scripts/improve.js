@@ -9,12 +9,10 @@ import fs from 'fs'
                     .replace(/blockquote {/g,`li {
     font-size: 11px; }
 
-    ul:not(.minimal):not(.two-column) li:empty {
-        list-style-type:" ";}
-
     ul:not(.minimal):not(.two-column) li:last-child {
-        list-style-type:"\\27AE";}
-        
+        list-style-type:"\\27AE";
+        margin-top: 5px;}
+
     blockquote {`);
     fs.writeFileSync('./public/resume.html', result, 'utf8')
 })()

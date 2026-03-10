@@ -1,11 +1,11 @@
 {
-    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.0/schema.json",
     "basics": {
         "name": "Dimitri Rayer",
         "label": "Architecte | Tech Lead | API Management",
         "picture": "portrait.png",
         "website": "",
-        "summary": "Développeur et architecte avec plus de 15 ans d’expérience, j’ai travaillé sur des projets variés, du front au back en passant par l’API management. J’aime comprendre les besoins, concevoir des solutions simples et efficaces, puis les faire vivre dans le temps. Habitué aux environnements exigeants, je privilégie la collaboration et le partage pour avancer avec les équipes.",
+        "summary": "Architecte logiciel et Tech Lead avec plus de 16 ans d’expérience, spécialisé en API Management, IAM (Keycloak, OAuth2/OIDC) et observabilité (OpenTelemetry). J’interviens en prestation pour des grands comptes et ETI — banque (BPCE), santé (CNAM - Mon Espace Santé), industrie (Pasquier, Atlantic) et cloud (hébergeur certifié ISO 27001/HDS) — sur des missions d’architecture, de conception et d’accompagnement des équipes de développement. Habitué aux contextes exigeants en sécurité et conformité, je privilégie des solutions pragmatiques et durables.",
         "location": {
             "city": "Angers",
             "countryCode": "FR"
@@ -25,13 +25,42 @@
       "location": "BPCE | Temps partiel",
       "startDate": "2025-01",
       "endDate": "2025-07",
-      "summary": "Architecte Solution sur les problématiques d'API Management'",
+      "summary": "Architecte Solution sur les problématiques d'API Management",
       "highlights": [
-        "Accompagnement des équipes de développement, pour le cadrage et la mise en place de passerelles d'API",
-        "Accompagnement des équipes de développement dans leurs problématiques d'authentification et de sécurisation en profondeur des flux d'API",
-        "Etudes d'impacts, préparation et soutenance de dossiers d'architectures",
-        "",
+        "Suivi de ~20 dossiers d'API en parallèle, accompagnement d'une équipe par dossier pour le cadrage et la mise en place de passerelles d'API",
+        "Accompagnement des équipes sur les problématiques d'authentification et de sécurisation en profondeur des flux d'API",
+        "Études d'impacts, préparation et soutenance de dossiers d'architectures",
         "API Management | Axway | OAuth2 | Confluence | Jira"
+      ]
+    },
+    {
+      "company": "ONEA",
+      "position": "Formateur",
+      "location": "Temps partiel",
+      "startDate": "2025-01",
+      "endDate": "2026-03",
+      "summary": "Formations techniques dispensées auprès de professionnels sur l'IAM, l'observabilité et l'audit technique.",
+      "highlights": [
+        "1 session de formation IAM / Keycloak : gestion des identités, protocoles OAuth2/OIDC, fédération, administration",
+        "3 sessions de formation Observabilité / OpenTelemetry : instrumentation, collecte, corrélation traces-métriques-logs",
+        "1 session d'audit technique : évaluation d'architecture, identification des axes d'amélioration, restitution",
+        "Keycloak | OpenTelemetry | OAuth2 | OIDC | Observabilité"
+      ]
+    },
+    {
+      "company": "ONEA",
+      "position": "Architecte logiciels",
+      "location": "Cloud provider - Lyon | Temps partiel",
+      "startDate": "2025-11",
+      "endDate": "2026-02",
+      "summary": "Conception et architecture d'une Cloud Management Platform (CMP) multi-tenant pour un hébergeur cloud, permettant à ses clients de gérer leurs services d'infrastructure virtualisée en autonomie.",
+      "highlights": [
+        "Conception de l'architecture multi-tenant (plateformes mutualisées et dédiées) avec isolation des données clients, 3 environnements (dev, staging, production)",
+        "Étude des flux d'authentification et mise en place de Keycloak : SSO via Active Directory, 2FA pour les clients",
+        "Livraison d'un DAA et d'un dossier d'architecture sécurité et compliance (ISO 27001 / HDS)",
+        "Cadrage de la traçabilité et de l'auditabilité des actions utilisateurs et comptes de service",
+        "Développement assisté par IA",
+        "Keycloak | .NET | Vue.js | Nutanix API | GLPI | OAuth2 | OIDC"
       ]
     },
     {
@@ -39,14 +68,13 @@
         "location": "Atlantic | Temps partiel",
         "position": "Architecte logiciels | Développeur full stack",
         "startDate": "2024-06",
-        "endDate": "2025-07",
+        "endDate": "2026-01",
         "summary": "Prestations de conception et développement d'un configurateur de chaudière",
         "highlights": [
-          "Application à destination des installateur pour simplifier la configuration des chaudières Atlantic",
-          "Architecture, analyse, conception et développement web",
+          "Application PWA à destination de plusieurs centaines d'installateurs pour simplifier la configuration des chaudières Atlantic",
+          "Architecture, analyse, conception et développement en autonomie complète",
           "Maintien en condition opérationnelle",
-          "",
-          "Vue.js | Nuxt.js | Azure Devops"
+          "Vue.js | Nuxt.js | Azure DevOps | PWA | API Share"
         ]
       },      
       {
@@ -57,10 +85,9 @@
         "endDate": "2025-07",
         "summary": "Prestations de conception et développement d'une application de rapprochement des factures clients",
         "highlights": [
-          "Application de rapprochement des factures clients hors EDI",
+          "Application de rapprochement des factures clients hors EDI : traitement de plusieurs centaines d'exceptions par mois sur 18 sites de production",
           "Audit, architecture, conception et développement web",
-          "",
-          ".Net Core | Vue.js | Azure Devops | MSSQL | ISeries"
+          ".NET Core | Vue.js | Azure DevOps | MSSQL | ISeries"
         ]
       },      
       {
@@ -74,8 +101,7 @@
           "Traduction de la vision stratégique en solutions technologiques",
           "Développement de la solution (Front, API, Backoffice, ...)",
           "Gestion de projets",
-          "",
-          "PHP | Symfony | PostgreSQL | API Rest | Github"
+          "PHP | Symfony | PostgreSQL | API REST | GitHub"
         ]
       },      
       {
@@ -88,8 +114,7 @@
         "highlights": [
           "Application de mesure de l'empreinte carbone d'un salarié",
           "Audit, architecture, conception et développement web",
-          "",
-          ".Net Core | Vue.js | Azure Devops | MSSQL"
+          ".NET Core | Vue.js | Azure DevOps | MSSQL"
         ]
       },
       {
@@ -97,12 +122,11 @@
         "position": "Architecte Solution",
         "location": "CNAM | Temps partiel",
         "startDate": "2023-10",
-        "endDate": "2023-12",
+        "endDate": "2024-01",
         "summary": "Architecte Solution au sein de l'autorité responsable de la conception (Design authority) pour 'Mon Espace Santé'",
         "highlights": [
           "Participation aux réunions quotidiennes (Daily stand-up)",
-          "Participation aux rénuions de conception de l'autorité (Grooming)",
-          "",
+          "Participation aux réunions de conception de l'autorité (Grooming)",
           "JIRA | Confluence | MEGA HOPEX"
         ]
       },
@@ -114,12 +138,11 @@
         "endDate": "2023-10",
         "summary": "Accompagnement dans la mise en place d'une solution de télémetrie",
         "highlights": [
-          "Etude de différentes solutions de télémétrie pour la supervision globale du SI SOGET (SigNoz, Azure Monitor, Jaeger, Grafana ...). ",
-          "Définition de l'architecture cible.",
+          "Étude de différentes solutions de télémétrie pour la supervision globale du SI Soget (SigNoz, Azure Monitor, Jaeger, Grafana)",
+          "Définition de l'architecture cible",
           "Définition des bonnes pratiques pour l'instrumentation des applicatifs, la collecte des données de télémétrie et la restitution",
           "POC, ADR, dossier d'architecture",
-          "",
-          "OpenTelemetry | Azure Monitor | SigNoz | Jaeger | Grafana | Docker | .Net Core | ASP MVC | Azure Devops"
+          "OpenTelemetry | Azure Monitor | SigNoz | Jaeger | Grafana | Docker | .NET Core | ASP MVC | Azure DevOps"
         ]
       },
       {
@@ -128,13 +151,12 @@
         "location": "KS2 | Temps partiel",
         "startDate": "2022-06",
         "endDate": "2023-10",
-        "summary": "Audit, conception et développement Vue.js 3",
+        "summary": "Audit, conception et développement Vue.js 3 — équipe de 2 développeurs",
         "highlights": [
           "Mise en place de l'architecture front de la solution",
-          "Accompagnement de l'équipe de développement",
+          "Accompagnement d'un développeur junior",
           "Mise en place d'un générateur de composants dynamiques (JSON components)",
-          "",
-          "Vue.js 3 | Tailwind | Pinia | API Rest | Github"
+          "Vue.js 3 | Tailwind | Pinia | API Rest | GitHub"
         ]
       },
       {
@@ -143,14 +165,13 @@
         "location": "Soget | Temps partiel",
         "startDate": "2022-07",
         "endDate": "2023-07",
-        "summary": "Accompagnement dans la mise en place d'une solution d'API management",
+        "summary": "Accompagnement dans la mise en place d'une solution d'API Management (~10 APIs exposées)",
         "highlights": [
           "Définition de l'architecture cible",
           "Rédaction de spécifications techniques et fonctionnelles",
           "Mise en place d'un portail de documentation (Bump.sh)",
-          "Accompagnement des développeurs pour les 4 briques identifiées : Access, Keys, Sales, Documentation",
-          "",
-          "API Management | Azure APIM | OIDC - Keycloack | Azure Devops | .Net Core | ASP MVC"
+          "Accompagnement de 2 développeurs sur les 4 briques identifiées : Access, Keys, Sales, Documentation",
+          "API Management | Azure APIM | OIDC | Keycloak | Azure DevOps | .NET Core | ASP MVC"
         ]
       },
       {
@@ -165,9 +186,8 @@
           "Analyse et définition des interfaces entre l'existant et les nouveaux développements pour la gestion des stocks",
           "Participation aux différents travaux d'urbanisation du SI",
           "Revues d'architectures et de conceptions",
-          "Formation des nouveaux développeurs à VueJs",
-          "",
-          "Architecture-Urbanisation | .Net Core | Vue.js | Gravitee | OIDC | Azure Devops | MSSQL"
+          "Formation des nouveaux développeurs à Vue.js",
+          "Architecture | Urbanisation | .NET Core | Vue.js | Gravitee | OIDC | Azure DevOps | MSSQL"
         ]
       },
       {
@@ -181,10 +201,9 @@
           "Suivi quotidien et hebdomadaire de l'équipe (Agile)",
           "Suivi du backlog et priorisation des nouvelles demandes",
           "Analyse fonctionnelle et technique",
-          "Preuve de concept en Node/NestJs : étude de mise à l'échelle et de l'architecture hexagonale",
-          "Développement Vuejs",
-          "",
-          "Typescript | Nest.Js | Jira | Vue.js | Azure | Gitlab | OIDC | Postgresql"
+          "Preuve de concept en Node.js/NestJS : étude de mise à l'échelle et de l'architecture hexagonale",
+          "Développement Vue.js",
+          "TypeScript | NestJS | Jira | Vue.js | Azure | GitLab | OIDC | PostgreSQL"
         ]
       },
       {
@@ -193,30 +212,27 @@
         "website": "https://pasquier.fr",
         "startDate": "2018-01",
         "endDate": "2021-12",
-        "summary": "Responsable d'une équipe de 4 personnes, en charge de l'industrialisation des développements web et .Net",
+        "summary": "Management d'une équipe de 4 personnes, responsable d'une dizaine d'applications et APIs en direct et de plusieurs dizaines en accompagnement indirect",
         "highlights": [
           "Définition et mise en place des architectures web hautement disponibles pour le SI Pasquier",
           "Mise en place du comité d'urbanisation du SI",
-          "Définition et intégration d'outils de supervision et de suivi opérationnel des applications web Pasquier (ALM, APM)",
-          "Définition et mise à disposition de patrons d'architecture et de conception pour les équipes de développeurs (API, Hexagonale, DDD, CQRS, ...)",
-          "Veille technologique et choix des technologies à intégrer au SI",
-          "Conception, développement et maintien en conditions opérationnelle d'applications, d'outils et de briques applicatives techniques (authentification, internationalisation, ...)",
-          "Définition et accompagnement des équipes de développement à la mise en place de méthodologies issues du manifeste agile (itération, revues, ...).",
-          "Définition et mise en place des flux d'intégration continue et de déploiement continu (CI/CD)",
-          "Formation et suivi des équipes de développement",
-          "Management de proximité",
-          "",
-          "Architecture-Urbanisation |.Net Core | APIM | Azure Devops | Vue.js | DDD | CQRS | Angular | MSSQL | Typescript"
+          "Définition et intégration d'outils de supervision et de suivi opérationnel des applications web (ALM, APM)",
+          "Définition et mise à disposition de patrons d'architecture et de conception (API, Hexagonale, DDD, CQRS)",
+          "Conception, développement et maintien en conditions opérationnelles d'applications et de briques techniques transverses (authentification, internationalisation, ...)",
+          "Mise en place des flux d'intégration continue et de déploiement continu (CI/CD)",
+          "Formation et accompagnement de plusieurs dizaines de développeurs (équipe directe et développeurs métier)",
+          "Management de proximité, mise en place de méthodologies agiles (itérations, revues)",
+          "Architecture | Urbanisation | .NET Core | APIM | Azure DevOps | Vue.js | DDD | CQRS | Angular | MSSQL | TypeScript"
         ]
       },
       {
         "company": "E.S.E.O",
-        "position": "Formateur .Net/.Net core ",
+        "position": "Formateur .NET / .NET Core",
         "website": "https://eseo.fr/",
         "startDate": "2017-12",
         "endDate": "2020-04",
-        "summary": "Intervenant quelques jours par an pour former les étudiants ingénieurs au développement .Net.",
-        "highlights": ["API Rest | .Net core | ASP .Net core"]
+        "summary": "Intervenant quelques jours par an pour former les étudiants ingénieurs au développement .NET.",
+        "highlights": ["API REST | .NET Core | ASP.NET Core"]
       },
       {
         "company": "Pasquier SA",
@@ -226,12 +242,11 @@
         "endDate": "2017-12",
         "summary": "Développeur dans l'équipe R&D SI.",
         "highlights": [
-          "Architecture, analyse, conception et développement d'outils .Net : accès aux données, validation, i18n, configuration, patterns, ...",
-          "Recueil du besoin, analyse, développement, et maintien opérationnel de blocs applicatifs",
-          "Accompagnement des développeurs métier : formations, suivi, revues de code, échanges.",
-          "Administration TFS/Azure Devops",
-          "",
-          "C# | Net 3.5-4.* | Azure Devops | MSSQL | ISeries SQL"
+          "Architecture, analyse, conception et développement d'outils .NET : accès aux données, validation, i18n, configuration, patterns",
+          "Recueil du besoin, analyse, développement et maintien opérationnel de blocs applicatifs",
+          "Accompagnement des développeurs métier : formations, suivi, revues de code, échanges",
+          "Administration TFS / Azure DevOps",
+          "C# | .NET 3.5-4.* | Azure DevOps | MSSQL | ISeries SQL"
         ]
       },
       {
@@ -245,8 +260,7 @@
           "Rétro-ingénierie",
           "Analyse applicative et fonctionnelle d'un ensemble d'applications",
           "Migration d'applications du service achat en .NET",
-          "",
-          "VB.Net | C# | .Net 3.5-4.*"
+          "VB.NET | C# | .NET 3.5-4.*"
         ]
       },
       {
@@ -257,11 +271,10 @@
         "endDate": "2014-03",
         "summary": "Participation au développement d'EManager ; ERP dédié aux métiers du reconditionnement électronique (Orange, DELL, HP, VOO).",
         "highlights": [
-          "Maintenance et évolutions de l'application développée en .NET.Net",
+          "Maintenance et évolutions de l'application développée en .NET",
           "Mise en place d'une architecture N'Tiers",
           "Développement d'une librairie d'abstraction des EDI avec les transporteurs (UPS, DHL, Chronopost, DPD)",
-          "",
-          ".Net 3.5-4.* | Winform | MSSQL"
+          ".NET 3.5-4.* | WinForms | MSSQL"
         ]
       },
       {
@@ -277,8 +290,7 @@
           "Développement d'un extranet de suivi de commandes de repas (liaison froide)",
           "Maintenance et amélioration d'une application de scans (Windows CE)",
           "Développement d'un générateur de menus : outil de conception des menus pour les services diététiques et communication",
-          "",
-          "Javascript | JQuery | PHP | .Net 3.5-4.* | Winform | MSSQL"
+          "JavaScript | jQuery | PHP | .NET 3.5-4.* | WinForms | MSSQL"
         ]
       },
       {
@@ -289,9 +301,8 @@
         "endDate": "2012-01",
         "summary": "Premiers développements informatiques professionnels, principalement un Micro ERP pour l'entreprise Rayer Pneus",
         "highlights": [
-          "Micro ERP (stock, bon de commande, facturation",
-          "",
-          "PHP | Javascript"
+          "Micro ERP (stock, bon de commande, facturation)",
+          "PHP | JavaScript"
         ]
       },
       {
@@ -300,13 +311,12 @@
         "website": "",
         "startDate": "1996-02",
         "endDate": "2010-12",
-        "summary": "Avant de me professionnaliser dans l'informatique, j'ai eu plusieurs autres vies, dans le désordre: ",
+        "summary": "Avant de me professionnaliser dans l'informatique, j'ai eu plusieurs autres vies, dans le désordre :",
         "highlights": [
           "Technicien son au Studio Blue Cry (Belgique)",
           "Sonorisateur dans l'évènementiel",
           "Hotline pour un fournisseur de décodeurs TV",
           "Animateur socio-culturel",
-          "",
           "Travail en équipe | Sens du service"
         ]
       }
@@ -318,7 +328,7 @@
             "studyType": "",
             "courses": [
                 "WOA, Architecture orientée web (Orsys)", 
-                "Conception et designa pattern (Orsys)",                
+                "Conception et design patterns (Orsys)",                
                 "Fondements de l'agilité (OnePoint)",
                 "Communiquer et coopérer efficacement (Regard9 / Pasquier)", 
                 "Manager au quotidien (Pasquier)",
@@ -360,13 +370,15 @@
             "level": "",
             "keywords": [
                 "ALM",
-                "Api Rest",
-                "(Gravitee | Azure APIM)", 
+                "API REST",
+                "Gravitee",
+                "Azure APIM",
                 "OIDC",
                 "CQRS",
                 "DDD",
-                "Hexagonale",
-                "APM | OpenTelemetry"
+                "Architecture hexagonale",
+                "APM",
+                "OpenTelemetry"
             ]
         },
         {
@@ -384,11 +396,16 @@
             "name": "Dev.",
             "level": "",
             "keywords": [
-                "Typescript, Vue.js 2-3, ",
-                "Node", "NestJs",
-                ".Net core, PHP",
-                "IIS, Rest, WCF",
-                "Azure Devops, Nugget",
+                "TypeScript",
+                "Vue.js 2-3",
+                "Node.js",
+                "NestJS",
+                ".NET Core",
+                "PHP",
+                "IIS",
+                "WCF",
+                "Azure DevOps",
+                "NuGet",
                 "Open XML"
             ]
         },
@@ -396,7 +413,12 @@
             "name": "Data",
             "level": "",
             "keywords": [
-                "Sql server, SSIS, SSRS, ISeries, MySql, PostgreSQL",
+                "SQL Server",
+                "SSIS",
+                "SSRS",
+                "ISeries",
+                "MySQL",
+                "PostgreSQL",
                 "Elasticsearch",
                 "Firestore"
             ]
