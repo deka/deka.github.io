@@ -33,3 +33,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts 
+.specs/best-practice.md
+.specs/O.S.E-expose.md
+.specs/O.S.E-observe.md
+.specs/O.S.E-secure.md
+.specs/O.S.E.md
