@@ -117,12 +117,9 @@ a {
     overflow-wrap: break-word;
 }
 
-.highlights li:empty {
-    list-style-type: " ";
-}
-
 .highlights li:last-child {
     list-style-type: "\27AE";
+    margin-top: 5px;
 }
 
 /* Set some print settings. */

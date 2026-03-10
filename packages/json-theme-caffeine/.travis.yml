@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "12"
+branches:
+  only:
+    - master
+install:
+  - yarn install
+script:
+  - npx gulp
+  - npx resume test
+  - npx resume export resume --format pdf --theme .
+  - rm resume.pdf
