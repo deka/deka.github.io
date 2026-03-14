@@ -19,20 +19,6 @@
         ]
     },
     "work": [
-      {
-      "company": "ONEA",
-      "position": "Architecte Solution ",
-      "location": "BPCE | Temps partiel",
-      "startDate": "2025-01",
-      "endDate": "2025-07",
-      "summary": "Architecte Solution sur les problématiques d'API Management",
-      "highlights": [
-        "Suivi de ~20 dossiers d'API en parallèle, accompagnement d'une équipe par dossier pour le cadrage et la mise en place de passerelles d'API",
-        "Accompagnement des équipes sur les problématiques d'authentification et de sécurisation en profondeur des flux d'API",
-        "Études d'impacts, préparation et soutenance de dossiers d'architectures",
-        "API Management | Axway | OAuth2 | Confluence | Jira"
-      ]
-    },
     {
       "company": "ONEA",
       "position": "Formateur",
@@ -68,7 +54,7 @@
         "location": "Atlantic | Temps partiel",
         "position": "Architecte logiciels | Développeur full stack",
         "startDate": "2024-06",
-        "endDate": "2026-01",
+        "endDate": "2026-02",
         "summary": "Prestations de conception et développement d'un configurateur de chaudière",
         "highlights": [
           "Application PWA à destination de plusieurs centaines d'installateurs pour simplifier la configuration des chaudières Atlantic",
@@ -76,7 +62,21 @@
           "Maintien en condition opérationnelle",
           "Vue.js | Nuxt.js | Azure DevOps | PWA | API Share"
         ]
-      },      
+      },
+      {
+        "company": "ONEA",
+        "position": "Architecte Solution ",
+        "location": "BPCE | Temps partiel",
+        "startDate": "2025-01",
+        "endDate": "2025-07",
+        "summary": "Architecte Solution sur les problématiques d'API Management",
+        "highlights": [
+          "Suivi de ~20 dossiers d'API en parallèle, accompagnement d'une équipe par dossier pour le cadrage et la mise en place de passerelles d'API",
+          "Accompagnement des équipes sur les problématiques d'authentification et de sécurisation en profondeur des flux d'API",
+          "Études d'impacts, préparation et soutenance de dossiers d'architectures",
+          "API Management | Axway | OAuth2 | Confluence | Jira"
+        ]
+      },     
       {
         "company": "ONEA",
         "location": "Brioche Pasquier | Temps partiel",
