@@ -35,10 +35,24 @@
     },
     {
       "company": "ONEA",
+      "position": "Architecte IAM",
+      "location": "Mobility As a Service - Lyon | Temps partiel",
+      "startDate": "2026-02",
+      "endDate": "2026-03",
+      "summary": "Mise en place de Keycloak et du mécanisme de token exchange (RFC 8693) pour un éditeur MaaS, permettant l'intégration sécurisée avec l'API d'un partenaire tout en conservant l'identité des utilisateurs.",
+      "highlights": [
+        "Implémentation du token exchange OAuth2 (RFC 8693) : l'application échange le token OIDC utilisateur contre un token accepté par l'API partenaire, en préservant l'identité de l'utilisateur",
+        "Configuration de l'authentification OIDC déléguée au partenaire (SSO + MFA gérés côté partenaire)",
+        "Mapping des claims et scopes pour conformité avec le format de token attendu par l'API partenaire",
+        "POC de validation des flux d'authentification et d'échange de tokens sur Keycloak 25 et 26",
+        "Keycloak 25/26 | Express.js | Vanilla JS | OAuth2 | OIDC | RFC 8693"
+      ]
+    },
+    {
+      "company": "ONEA",
       "position": "Architecte logiciels",
       "location": "Cloud provider - Lyon | Temps partiel",
       "startDate": "2025-11",
-      "endDate": "2026-02",
       "summary": "Conception et architecture d'une Cloud Management Platform (CMP) multi-tenant pour un hébergeur cloud, permettant à ses clients de gérer leurs services d'infrastructure virtualisée en autonomie.",
       "highlights": [
         "Conception de l'architecture multi-tenant (plateformes mutualisées et dédiées) avec isolation des données clients, 3 environnements (dev, staging, production)",
@@ -54,7 +68,6 @@
         "location": "Atlantic | Temps partiel",
         "position": "Architecte logiciels | Développeur full stack",
         "startDate": "2024-06",
-        "endDate": "2026-02",
         "summary": "Prestations de conception et développement d'un configurateur de chaudière",
         "highlights": [
           "Application PWA à destination de plusieurs centaines d'installateurs pour simplifier la configuration des chaudières Atlantic",
