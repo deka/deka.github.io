@@ -20,14 +20,14 @@ export default function ProfileSection() {
             </div>
             
             <div className="space-y-6">
-              <p className="text-lg text-primary-blue leading-relaxed">
+              <p className="text-base md:text-lg text-primary-blue leading-relaxed">
                 Un tech lead expérimenté, architecte logiciel et dirigeant avec plus de 15 ans d'expérience dans la livraison de projets IT complexes 
                 pour des startup, éditeurs, E.T.I et grands groupes.
               </p>
               
-              <p className="text-lg text-primary-blue leading-relaxed">
+              <p className="text-base md:text-lg text-primary-blue leading-relaxed">
                 Mon approche repose sur l'écoute, la rigueur, le souci du détail et la réactivité. Elle se traduit par un haut niveau de satisfaction client. </p>              
-              <p className="text-lg text-primary-blue leading-relaxed">
+              <p className="text-base md:text-lg text-primary-blue leading-relaxed">
                 Voyons comment je peux vous aider à réussir !
               </p>
             </div>
@@ -70,7 +70,7 @@ export default function ProfileSection() {
               <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-2xl overflow-hidden">
                 <div className="aspect-square overflow-hidden">
                   <img 
-                    src="/portrait.png" 
+                    src="/portrait.webp" 
                     alt="Portrait de Dimitri Rayer" 
                     className="w-full h-full object-cover"
                   />

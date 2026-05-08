@@ -1,7 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Bash(which next:*)"
+      "Bash(which next:*)",
+      "Edit(/.claude/skills/portfolio-experience/**)",
+      "Edit(/.claude/skills/projet-image/**)",
+      "Edit(/.claude/skills/projet-page/**)",
+      "Edit(/.claude/skills/image-web/**)",
+      "Bash(node scripts/image-web.mjs *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)"
+    ],
+    "additionalDirectories": [
+      "/home/deka/sources/github/deka.github.io/.claude/skills/portfolio-experience"
     ]
+  },
+  "enabledPlugins": {
+    "code-simplifier@claude-plugins-official": true
   }
 }

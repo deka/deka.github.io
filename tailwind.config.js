@@ -11,9 +11,12 @@ module.exports = {
         'primary-blue': '#2D3C4B',
         'primary-turquoise': '#3C9B96',
         'primary-yellow': '#F5C36E',
+        'primary-yellow-hover': '#f0b84d',
+        'primary-blue': '#2D3C4B',
       },
       fontFamily: {
         'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
+        'display': ['Fraunces', 'Georgia', 'serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

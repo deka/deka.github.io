@@ -3,7 +3,7 @@
     "basics": {
         "name": "Dimitri Rayer",
         "label": "Architecte | Tech Lead | API Management",
-        "picture": "portrait.png",
+        "picture": "portrait.webp",
         "website": "",
         "summary": "Architecte logiciel et Tech Lead avec plus de 16 ans d’expérience, spécialisé en API Management, IAM (Keycloak, OAuth2/OIDC) et observabilité (OpenTelemetry). J’interviens en prestation pour des grands comptes et ETI — banque (BPCE), santé (CNAM - Mon Espace Santé), industrie (Pasquier, Atlantic) et cloud (hébergeur certifié ISO 27001/HDS) — sur des missions d’architecture, de conception et d’accompagnement des équipes de développement. Habitué aux contextes exigeants en sécurité et conformité, je privilégie des solutions pragmatiques et durables.",
         "location": {

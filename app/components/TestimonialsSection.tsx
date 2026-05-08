@@ -9,7 +9,7 @@ export default function TestimonialsSection() {
       name: "Laurent Humeau",
       title: "Directeur des systèmes d'Information",
       company: "Brioche Pasquier",
-      avatar: "/testimonial-laurent.jpeg"
+      avatar: "/testimonial-laurent.webp"
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ export default function TestimonialsSection() {
       name: "Jérôme Dumas",
       title: "CTO & Entrepreneur",
       company: "Peek'in",
-      avatar: "/testimonial-jerome.jpeg"
+      avatar: "/testimonial-jerome.webp"
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ Précis et rigoureux, les livrables sont de très bonnes qualités.`,
       name: "Nordine Boutiba",
       title: "Program Manager",
       company: "SoGet SA",
-      avatar: "/testimonial-nordine.jpeg"
+      avatar: "/testimonial-nordine.webp"
     }
   ]
 
