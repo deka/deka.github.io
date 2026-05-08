@@ -13,11 +13,11 @@ export default function ProjetResultatsSection({ items, imageSrc, imageAlt }: Pr
         Résultats
       </h2>
       {imageSrc && (
-        <div className="mb-8 md:float-right md:ml-10 md:mb-4 md:w-56 lg:w-96">
+        <div className="mb-8 md:float-right md:ml-10 md:mb-4 md:w-56 lg:w-96 print:float-right print:ml-8 print:mb-4 print:w-72">
           <img
             src={imageSrc}
             alt={imageAlt ?? ''}
-            className="w-full rounded-lg shadow-md object-cover"
+            className="w-full rounded-lg shadow-lg shadow-slate-900/10 object-cover"
           />
         </div>
       )}

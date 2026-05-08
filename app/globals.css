@@ -87,6 +87,17 @@ a {
   text-decoration-skip-primary-blue: auto;
 }
 
+@media print {
+  @page {
+    size: A4;
+    margin: 1.2cm 1.5cm;
+  }
+
+  html {
+    font-size: 11px;
+  }
+}
+
 /* Amélioration pour les utilisateurs de lecteurs d'écran */
 .focus\:not-sr-only:focus {
   position: static;

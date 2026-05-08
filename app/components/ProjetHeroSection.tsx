@@ -22,7 +22,7 @@ export default function ProjetHeroSection({
         className="pointer-events-none absolute -top-40 left-1/2 h-[40rem] w-[40rem] -translate-x-1/2 rounded-full opacity-30 blur-3xl print:hidden"
         style={{ background: "radial-gradient(circle, var(--teal) 0%, transparent 60%)" }}
       />
-      <div className="container-wide relative pt-16 pb-16 md:pt-24 md:pb-24">
+      <div className="container-wide relative pt-16 pb-16 md:pt-24 md:pb-24 print:pt-4 print:pb-4">
         <p className="eyebrow text-primary-turquoise print:text-teal-700">{eyebrow}</p>
         <h1 className="font-display mt-4 max-w-3xl text-5xl font-medium leading-[1.05] text-white md:text-7xl print:text-slate-900">
           {titleMain} <span className="italic text-primary-turquoise print:text-teal-700">{titleAccent}</span>
@@ -47,7 +47,7 @@ export default function ProjetHeroSection({
             Lire l'étude de cas
           </a>
         </div>
-        <div className="mt-16 flex flex-wrap items-center gap-x-10 gap-y-4 text-sm text-white/50 print:text-slate-500">
+        <div className="mt-16 print:mt-4 flex flex-wrap items-center gap-x-10 gap-y-4 text-sm text-white/50 print:text-slate-500">
           <span>{metaTags[0]}</span>
           <span className="hidden h-1 w-1 rounded-full bg-white/30 md:block" />
           <span>{metaTags[1]}</span>
