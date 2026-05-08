@@ -13,5 +13,8 @@
     "additionalDirectories": [
       "/home/deka/sources/github/deka.github.io/.claude/skills/portfolio-experience"
     ]
+  },
+  "enabledPlugins": {
+    "code-simplifier@claude-plugins-official": true
   }
 }

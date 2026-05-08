@@ -35,7 +35,7 @@ export default function ProjetTokenExchange() {
         ]}
       />
 
-      <section className="pt-20 pb-0 px-4 sm:px-6 lg:px-8">
+      <section className="pt-12 md:pt-20 pb-0 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetEnjeuSection imageSrc="/token-exchange-1.webp" imageAlt="Token Exchange OAuth2 — flux de délégation inter-IdP">
             <p>
@@ -66,7 +66,7 @@ export default function ProjetTokenExchange() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetChiffreCleSection chiffres={[
             { valeur: "0", label: <>credential partenaire<br />stocké côté client</> },
@@ -76,7 +76,7 @@ export default function ProjetTokenExchange() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetApprocheSection 
             imageSrc="/token-exchange-2.webp" 
@@ -123,7 +123,7 @@ export default function ProjetTokenExchange() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetResultatsSection imageSrc="/token-exchange-3.webp" imageAlt="Token Exchange OAuth2 — vue 3" items={[
             "Flow complet validé en staging : authentification partenaire → token MaaS → token exchange → appel API partenaire avec propagation correcte de l'identité utilisateur",

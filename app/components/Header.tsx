@@ -1,12 +1,9 @@
 'use client'
 
 import React, { useState, useCallback, useEffect } from 'react'
-import { usePathname } from 'next/navigation'
-
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  const pathname = usePathname()
-  const base = pathname === '/' ? '' : '/'
+  const base = '/'
 
   const toggleMobileMenu = useCallback(() => {
     setIsMobileMenuOpen(prev => !prev)

@@ -174,7 +174,7 @@ export default function ProjetSlug() {
       />
 
       {/* Enjeu — image 1 flotte à droite sur lg, dessous sur mobile */}
-      <section className="pt-20 pb-0 px-4 sm:px-6 lg:px-8">
+      <section className="pt-12 md:pt-20 pb-0 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetEnjeuSection imageSrc="/[slug]-1.webp" imageAlt="Nom du projet — description courte">
             <p>
@@ -193,7 +193,7 @@ export default function ProjetSlug() {
       </section>
 
       {/* Chiffres clés optionnels */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetChiffreCleSection chiffres={[
             { valeur: "X", label: <>label ligne 1<br />label ligne 2</> },
@@ -202,7 +202,7 @@ export default function ProjetSlug() {
       </section>
 
       {/* Approche — image 2 flotte à gauche sur lg, au-dessus sur mobile */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetApprocheSection imageSrc="/[slug]-2.webp" imageAlt="Nom du projet — description courte">
             <ProjetApprocheParagraphe titre="Titre de la décision">
@@ -213,7 +213,7 @@ export default function ProjetSlug() {
       </section>
 
       {/* Résultats — image 3 flotte à droite sur lg, au-dessus sur mobile */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetResultatsSection imageSrc="/[slug]-3.webp" imageAlt="Nom du projet — description courte" items={[
             "Résultat factuel court, sans adjectif",

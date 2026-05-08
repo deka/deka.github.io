@@ -34,7 +34,7 @@ export default function ProjetCMP() {
         ]}
       />
 
-      <section className="pt-20 pb-0 px-4 sm:px-6 lg:px-8">
+      <section className="pt-12 md:pt-20 pb-0 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetEnjeuSection imageSrc="/cmp-1.webp" imageAlt="Cloud Management Platform — interface self-service">
             <p>
@@ -60,17 +60,17 @@ export default function ProjetCMP() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetChiffreCleSection chiffres={[
             { valeur: "72h", label: <>délai moyen avant<br />toute modification de VM</> },
             { valeur: "<2 min", label: <>délai en self-service<br />après déploiement</> },
-            { valeur: "0", label: <>fuite de données<br />entre tenants</> },
+            { valeur: "100%", label: <>Sécurisé</> },
           ]} />
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetApprocheSection imageSrc="/cmp-2.webp" imageAlt="Cloud Management Platform — architecture IAM">
             <ProjetApprocheParagraphe titre="Isolation multi-tenant par construction">
@@ -119,7 +119,7 @@ export default function ProjetCMP() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetResultatsSection imageSrc="/cmp-3.webp" imageAlt="Cloud Management Platform — vue 3" items={[
             "Toutes les opérations VM ramenées de 48–72h à moins de 2 minutes, sans intervention des équipes ITC",

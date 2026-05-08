@@ -27,7 +27,7 @@ export default function ProjetHeroSection({
         <h1 className="font-display mt-4 max-w-3xl text-5xl font-medium leading-[1.05] text-white md:text-7xl print:text-slate-900">
           {titleMain} <span className="italic text-primary-turquoise print:text-teal-700">{titleAccent}</span>
         </h1>
-        <p className="mt-6 max-w-2xl text-lg text-white/70 md:text-xl print:text-slate-700">
+        <p className="mt-6 max-w-2xl text-base md:text-lg text-white/70 md:text-xl print:text-slate-700">
           {description}
         </p>
         <div className="mt-10 flex flex-wrap gap-3">

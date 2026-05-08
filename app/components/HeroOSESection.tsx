@@ -34,7 +34,7 @@ export default function HeroOSESection() {
             </div>
             
             <div className="pt-6">
-              <p className="text-lg text-primary-blue font-medium">
+              <p className="text-base md:text-lg text-primary-blue font-medium">
                 Valeur : Accompagnement pour maîtriser son système.
               </p>
             </div>

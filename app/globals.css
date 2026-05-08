@@ -84,7 +84,7 @@ a, button {
 
 /* Amélioration des contrastes pour les liens */
 a {
-  text-decoration-skip-primary-blue: auto;
+  text-decoration-skip-ink: auto;
 }
 
 @media print {

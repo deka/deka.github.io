@@ -15,7 +15,7 @@ export default function ProjetCtaSection() {
           <h2 className="mt-3 text-3xl font-medium md:text-5xl text-gray-900">
             Un projet d'infrastructure sous contrainte de conformité ?
           </h2>
-          <p className="mt-6 text-lg leading-relaxed text-gray-500">
+          <p className="mt-6 text-base md:text-lg leading-relaxed text-gray-500">
             Je travaille avec les équipes qui doivent concilier autonomie utilisateur,
             isolation stricte et auditabilité. Un échange de 30 minutes suffit pour
             poser le cadre — sans engagement.
@@ -30,7 +30,7 @@ export default function ProjetCtaSection() {
           </ul>
         </div>
 
-        <div className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm md:p-10 w-1/2 mx-auto">
+        <div className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm md:p-10 w-full md:w-1/2 mx-auto">
           <p className="text-sm text-gray-400">Une question sur ce projet ?</p>
           <p className="mt-2 text-2xl font-medium text-gray-900">Parlons-en directement.</p>
           <div className="mt-8 flex flex-col gap-3">
