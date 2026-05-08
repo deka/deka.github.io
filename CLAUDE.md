@@ -57,3 +57,9 @@ Capture Lessons: Update `tasks/lessons.md` after corrections
 Simplicity First: Make every change as simple as possible. Impact minimal code.  
 No Laziness: Find root causes. No temporary fixes. Senior developer standards.  
 Minimal Impact: Changes should only touch what's necessary. Avoid introducing bugs.
+
+## Skills
+
+- **projet-page** (`.claude/skills/projet-page/SKILL.md`) - Ajouter une étude de cas B2B au portfolio. Trigger: `/projet-page`
+- **projet-image** (`.claude/skills/projet-image/SKILL.md`) - Générer un prompt d'image pour illustrer une page projet `/projet-xxx`. Trigger: `/projet-image`
+- **image-web** (`.claude/skills/image-web/SKILL.md`) - Optimiser une image pour le web : redimensionnement, conversion WebP/AVIF, suppression EXIF, rapport de gain. Trigger: `/image-web`

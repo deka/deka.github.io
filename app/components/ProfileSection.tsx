@@ -70,7 +70,7 @@ export default function ProfileSection() {
               <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-2xl overflow-hidden">
                 <div className="aspect-square overflow-hidden">
                   <img 
-                    src="/portrait.png" 
+                    src="/portrait.webp" 
                     alt="Portrait de Dimitri Rayer" 
                     className="w-full h-full object-cover"
                   />

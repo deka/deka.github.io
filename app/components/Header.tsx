@@ -1,9 +1,12 @@
 'use client'
 
 import React, { useState, useCallback, useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const base = pathname === '/' ? '' : '/'
 
   const toggleMobileMenu = useCallback(() => {
     setIsMobileMenuOpen(prev => !prev)
@@ -37,7 +40,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/logo-cercle.png" 
+              src="/logo-cercle.webp" 
               alt="Dimitri Rayer - Logo" 
               className="h-10 w-10 sm:h-12 sm:w-12"
             />
@@ -47,26 +50,26 @@ export default function Header() {
           <nav role="navigation" aria-label="Navigation principale" className="hidden md:block">
             <ul className="flex space-x-8">
               <li>
-                <a 
-                  href="#about"
+                <a
+                  href={`${base}#about`}
                   className="text-primary-blue hover:text-primary-blue font-medium transition-colors duration-200 focus:outline-none focus:text-primary-blue"
                   aria-label="À propos"
                 >
                   À propos
                 </a>
-              </li> 
+              </li>
               <li>
-                <a 
-                  href="#testimonials"
+                <a
+                  href={`${base}#testimonials`}
                   className="text-primary-blue hover:text-primary-blue font-medium transition-colors duration-200 focus:outline-none focus:text-primary-blue"
                   aria-label="Témoignages"
                 >
                   Témoignages
                 </a>
-              </li>      
+              </li>
               <li>
-                <a 
-                  href="#services"
+                <a
+                  href={`${base}#services`}
                   className="text-primary-blue hover:text-primary-blue font-medium transition-colors duration-200 focus:outline-none focus:text-primary-blue"
                   aria-label="Services"
                 >
@@ -139,28 +142,28 @@ export default function Header() {
           >
             <ul className="space-y-4">
               <li>
-                <a 
-                  href="#about"
+                <a
+                  href={`${base}#about`}
                   className="block text-primary-blue hover:text-primary-blue font-medium transition-colors duration-200 focus:outline-none focus:text-primary-blue py-2"
                   aria-label="À propos"
                   onClick={closeMobileMenu}
                 >
                   À propos
                 </a>
-              </li> 
+              </li>
               <li>
-                <a 
-                  href="#testimonials"
+                <a
+                  href={`${base}#testimonials`}
                   className="block text-primary-blue hover:text-primary-blue font-medium transition-colors duration-200 focus:outline-none focus:text-primary-blue py-2"
                   aria-label="Témoignages"
                   onClick={closeMobileMenu}
                 >
                   Témoignages
                 </a>
-              </li>      
+              </li>
               <li>
-                <a 
-                  href="#services"
+                <a
+                  href={`${base}#services`}
                   className="block text-primary-blue hover:text-primary-blue font-medium transition-colors duration-200 focus:outline-none focus:text-primary-blue py-2"
                   aria-label="Services"
                   onClick={closeMobileMenu}

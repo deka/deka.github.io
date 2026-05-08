@@ -17,6 +17,7 @@
     "build:static": "next build"
   },
   "dependencies": {
+    "lucide-react": "^1.14.0",
     "next": "16.2.4",
     "react": "19.2.5",
     "react-dom": "19.2.5"
@@ -31,8 +32,8 @@
     "jsonresume-theme-caffeine": "*",
     "jsonresume-theme-dev-ats": "*",
     "postcss": "8.5.14",
+    "resumed": "^6.1.0",
     "tailwindcss": "3.4.19",
-    "typescript": "5.9.3",
-    "resumed": "^6.1.0"
+    "typescript": "5.9.3"
   }
 }

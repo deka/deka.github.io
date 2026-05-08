@@ -13,7 +13,7 @@ export default function ServicesSection() {
       description: "Quand le plan est prêt, vous avez juste besoin de quelqu'un pour le construire, maintenir votre solution existante, corriger un bug complexe, ou accompagner votre équipe dans l'apprentissage de nouvelles technologies."
     },
     {
-      image: "/services-3.jpeg",
+      image: "/services-3.webp",
       title: "CTO en temps partagé & Leadership Technique",
       description: `Accompagner les dirigeants qui nécessitent un leadership technique temporaire rapide, 
         préparer et planifier des changements stratégiques, 

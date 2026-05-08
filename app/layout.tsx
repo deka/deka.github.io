@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Fraunces } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
+const fraunces = Fraunces({ subsets: ['latin'], variable: '--font-display' })
 
 export const metadata: Metadata = {
   title: 'Dimitri Rayer - Tech Lead & Architecte solution',
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     siteName: 'Dimitri Rayer',
     images: [
       {
-        url: '/logo-cercle.png',
+        url: '/logo-cercle.webp',
         width: 1200,
         height: 630,
         alt: 'Dimitri Rayer - Tech Lead & Architecte solution',
@@ -66,7 +67,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className="scroll-smooth" suppressHydrationWarning>
-      <body className={`${inter.className} antialiased`} suppressHydrationWarning>
+      <body className={`${inter.variable} ${fraunces.variable} antialiased`} suppressHydrationWarning>
         {/* Skip to main content for accessibility */}
         <a 
           href="#main-content"
