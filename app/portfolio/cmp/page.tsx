@@ -47,7 +47,7 @@ export default function ProjetCMP() {
             <p>
               Ce n'était pas un problème de capacité infrastructure. C'était un problème
               d'architecture d'accès. Les équipes ITC absorbaient une charge répétitive sans
-              valeur ajoutée, les clients subissaient une dépendance opérationnelle totale,
+              valeur ajoutée, les clients subissaient une dépendance opérationnelle,
               et l'ensemble du système était inadapté à une croissance du parc hébergé.
             </p>
             <p>
@@ -109,8 +109,8 @@ export default function ProjetCMP() {
             </ProjetApprocheParagraphe>
             <ProjetApprocheParagraphe titre="Sécurité native, pas ajoutée après coup">
               OAuth2 PKCE pour les SPA (pas de secret côté navigateur), JWT RS256
-              avec vérification d'issuer, MFA TOTP pour les clients et WebAuthn
-              pour les administrateurs, chiffrement AES-256-GCM au repos,
+              avec vérification d'issuer, MFA TOTP - WebAuthn
+              pour les clients et les administrateurs, chiffrement AES-256-GCM au repos,
               TLS 1.2+ avec HSTS. Ces choix ne sont pas une liste de cases cochées
               pour la certification — ils correspondent chacun à un vecteur d'attaque
               précis, documenté dans le dossier sécurité remis aux équipes conformité.

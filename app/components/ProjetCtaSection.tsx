@@ -1,5 +1,11 @@
 import { ArrowRight, Check } from 'lucide-react'
 
+function getAvailabilityDate(): string {
+  const now = new Date()
+  const next = new Date(now.getFullYear(), now.getMonth() + 1, 1)
+  return next.toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })
+}
+
 const POINTS = [
   "Audit d'architecture orienté conformité (ISO 27001, HDS, SOC 2)",
   "Conception de plateformes self-service multi-tenant",
@@ -50,7 +56,7 @@ export default function ProjetCtaSection() {
             </a>
           </div>
           <p className="mt-6 text-xs text-gray-400">
-            Réponse sous 24h ouvrées · Disponibilités à partir de juin 2026.
+            Réponse sous 24h ouvrées · Disponibilités à partir de {getAvailabilityDate()}.
           </p>
         </div>
       </div>

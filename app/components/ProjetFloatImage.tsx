@@ -15,7 +15,7 @@ export default function ProjetFloatImage({ src, alt, side }: ProjetFloatImagePro
       <img
         src={src}
         alt={alt}
-        className="w-full rounded-lg shadow-lg shadow-slate-900/10 object-cover"
+        className="w-full rounded-sm shadow-sm shadow-primary-turquoise object-cover border border-primary-turquoise p-1"
       />
     </div>
   )

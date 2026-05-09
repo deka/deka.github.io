@@ -46,13 +46,8 @@ export default function ProjetTokenExchange() {
               une seule session côté utilisateur.
             </p>
             <p>
-              La solution naïve aurait consisté à stocker des credentials partenaire
-              côté backend et à les réutiliser pour chaque appel. C'est précisément ce
-              que l'architecture ne pouvait pas se permettre : le partenaire ne délègue
-              pas un compte de service — il attend que l'appelant soit identifiable comme
-              l'utilisateur réel. Un proxy de credentials brise cette exigence, expose
-              l'ensemble des utilisateurs en cas de compromission, et rend l'audit
-              des appels API intraçable.
+              Le partenaire ne délègue pas un compte de service — il attend que l'appelant soit identifiable comme
+              l'utilisateur réel, avec une continuité d'audit des traces d'audit.
             </p>
             <p>
               L'authentification existante du client, reposant sur Supabase, n'offrait
@@ -92,7 +87,7 @@ export default function ProjetTokenExchange() {
             </ProjetApprocheParagraphe>
             <ProjetApprocheParagraphe titre="Architecture 3-clients avec audiences strictes">
               Trois clients Keycloak distincts, chacun avec un rôle précis : le client
-              public PKCE pour l'application frontend (aucun secret côté navigateur),
+              public PKCE pour l'application frontend,
               le client confidentiel qui initie l'échange de token depuis le backend
               du MaaS, et le client cible dans le realm partenaire qui accepte le token
               échangé. Les audiences sont déclarées explicitement — un token émis pour
