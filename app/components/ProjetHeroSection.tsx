@@ -5,7 +5,7 @@ interface ProjetHeroSectionProps {
   titleMain: string
   titleAccent: string
   description: React.ReactNode
-  metaTags: [string, string, string]
+  metaTags: [string, string, string] | [string, string, string, string]
 }
 
 export default function ProjetHeroSection({
