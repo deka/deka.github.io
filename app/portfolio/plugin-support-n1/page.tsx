@@ -29,8 +29,9 @@ export default function ProjetPluginSupportN1() {
         </>}
         metaTags={[
           "Consultant & Architecte IA",
-          "Claude Code · TypeScript · Zoho Desk API · MariaDB",
+          "Claude Code · TypeScript · Zoho Desk API · Tesseract · MariaDB",
           "Plug-and-play, cross-platform, zéro serveur central",
+          "Architecture frugale : OCR et appels Zoho hors LLM, zéro token gaspillé",
         ]}
       />
 
@@ -71,7 +72,7 @@ export default function ProjetPluginSupportN1() {
         <div className="max-w-5xl mx-auto">
           <ProjetChiffreCleSection chiffres={[
             { valeur: "5 min", label: <>temps de traitement N1<br />après déploiement</> },
-            { valeur: "12", label: <>commandes CLI exposées<br />par zoho-cli</> },
+            { valeur: "0 token", label: <>consommé par l'OCR<br />et les appels Zoho</> },
             { valeur: "4", label: <>systèmes intégrés<br />en source unique</> },
           ]} />
         </div>
@@ -90,14 +91,14 @@ export default function ProjetPluginSupportN1() {
               Ce choix a également éliminé toute question de disponibilité : le plugin fonctionne
               en local, avec les credentials de l'agent, sans point de défaillance partagé.
             </ProjetApprocheParagraphe>
-            <ProjetApprocheParagraphe titre="CLIs déterministes pour les opérations, LLM réservé à l'analyse">
-              Une architecture token-efficient repose sur une séparation nette : les opérations
-              structurées (lecture de ticket, recherche, récupération de pièces jointes, écriture
-              de brouillon) sont confiées à des CLIs déterministes. Le LLM n'intervient pas
-              sur ces appels — il reçoit un contexte assemblé et structuré, puis raisonne sur
-              ce contexte. Cette décision réduit la consommation de tokens aux seules tâches
-              à valeur ajoutée, et rend le comportement des opérations prévisible et testable
-              indépendamment du modèle.
+            <ProjetApprocheParagraphe titre="Frugalité tokens : opérations déterministes, LLM réservé à l'analyse">
+              La philosophie de l'architecture est la frugalité : chaque token consommé doit
+              correspondre à une tâche de raisonnement que seul un LLM peut faire. Les appels
+              à l'API Zoho — lecture de ticket, recherche, écriture de brouillon — sont
+              déterministes et ne passent pas par le modèle. Ils ne consomment aucun token.
+              Le LLM reçoit un contexte déjà assemblé et structuré, et n'intervient que sur
+              l'analyse et la synthèse. Ce parti pris rend également le comportement des
+              opérations prévisible et testable indépendamment du modèle.
             </ProjetApprocheParagraphe>
             <ProjetApprocheParagraphe titre="Brouillons idempotents — l'humain envoie, l'IA prépare">
               La contrainte de maîtrise de la communication client est tenue par construction :
@@ -108,14 +109,15 @@ export default function ProjetPluginSupportN1() {
               complément, relance, escalade N2. La guardrail n'est pas une consigne dans
               un prompt — c'est une limite technique dans le code.
             </ProjetApprocheParagraphe>
-            <ProjetApprocheParagraphe titre="Contexte unifié depuis quatre sources hétérogènes">
-              L'OCR systématique des pièces jointes (images, PDF scannés) via Tesseract et
-              Poppler produit des sidecars <code>.md</code> directement consommables par le
-              modèle, sans conversion manuelle. Le MCP MariaDB est configuré en read-only —
-              les données métier sont accessibles pour le diagnostic sans risque d'écriture
-              accidentelle. En une commande d'initialisation du dossier de travail, l'agent
-              dispose d'un contexte unifié depuis le CRM, les logs, la base de données et
-              la base de code — ce qui prenait 45 minutes à rassembler manuellement.
+            <ProjetApprocheParagraphe titre="OCR local, zéro token — Tesseract traite les pièces jointes hors LLM">
+              L'extraction du contenu des pièces jointes (images, PDF scannés) est réalisée
+              localement par Tesseract et Poppler — sans passer par le modèle, sans consommer
+              un seul token. Le résultat est un sidecar <code>.md</code> directement
+              consommable. Le MCP MariaDB est configuré en read-only — les données métier
+              sont accessibles pour le diagnostic sans risque d'écriture accidentelle.
+              En une commande d'initialisation du dossier de travail, l'agent dispose d'un
+              contexte unifié depuis le CRM, les logs, la base de données et la base de code
+              — ce qui prenait 45 minutes à rassembler manuellement.
             </ProjetApprocheParagraphe>
           </ProjetApprocheSection>
         </div>
@@ -129,7 +131,7 @@ export default function ProjetPluginSupportN1() {
             "Support N1 opérationnel en autonomie sur les cas standards — tri, analyse RCA, brouillon prêt en une commande",
             "Maîtrise de la communication client préservée : aucun email envoyé par l'IA, validation humaine obligatoire avant envoi depuis l'UI Zoho",
             "Équipe dimensionnée pour absorber la croissance du volume : 1 agent au lancement, montée à 3 prévue fin 2026 sans recrutement proportionnel",
-            "Consommation tokens maîtrisée : LLM sollicité uniquement sur les tâches d'analyse, CLIs déterministes pour toutes les opérations structurées",
+            "Architecture frugale : OCR via Tesseract et appels Zoho exécutés hors LLM — zéro token consommé sur les opérations déterministes, modèle réservé à l'analyse",
           ]} />
         </div>
       </section>
