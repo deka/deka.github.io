@@ -82,10 +82,10 @@ export default function ProjetClaudeCodeGov() {
       <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <ProjetApprocheSection imageSrc="/claude-code-gov-2.webp" imageAlt="Gouvernance Claude Code — mécanisme d'héritage et CLAUDE.md">
-            <ProjetApprocheParagraphe titre="Deny-first par construction, pas par convention">
+            <ProjetApprocheParagraphe titre="Deny-first : périmètre fermé dès le premier jour">
               Le parti pris central : toute action non explicitement autorisée est bloquée.
-              Pas de liste blanche ajoutée après un incident — un périmètre fermé dès le premier
-              jour, élargi à la demande et documenté à chaque extension. Les ~30 règles couvrent
+              Aucune liste blanche construite au fil des incidents — un périmètre défini dès
+              le départ, élargi à la demande et documenté à chaque extension. Les ~30 règles couvrent
               les secrets d'application .NET, les fichiers de configuration sensibles,
               les commandes shell destructrices, l'exfiltration de données vers des services
               tiers, et les déploiements non planifiés. Sur Windows et WSL, où la sandbox native
@@ -97,10 +97,10 @@ export default function ProjetClaudeCodeGov() {
               l'ensemble des règles. Chaque projet importe ce socle via le mécanisme{" "}
               <code>@-import</code> natif de Claude Code. Mettre à jour la politique de sécurité
               revient à modifier un seul fichier et ouvrir une PR : la propagation est mécanique,
-              pas éditoriale. Ce qui aurait nécessité un message Slack par développeur
+              automatique. Ce qui aurait nécessité un message Slack par développeur
               devient un commit traçable dans l'historique git.
             </ProjetApprocheParagraphe>
-            <ProjetApprocheParagraphe titre="Onboarding reproductible, pas mémorisé">
+            <ProjetApprocheParagraphe titre="Un onboarding qui fonctionne sans son auteur">
               Le cadre d'onboarding a été conçu pour fonctionner sans l'auteur présent.
               Installation Claude Code sur Windows 11, initialisation d'un projet,
               branchement MCP base de données en lecture seule, vérification des règles actives :
@@ -109,9 +109,9 @@ export default function ProjetClaudeCodeGov() {
               qui rejoint l'équipe suit le document — il n'a pas besoin de poser des questions
               pour être opérationnel.
             </ProjetApprocheParagraphe>
-            <ProjetApprocheParagraphe titre="Passation orientée autonomie, pas dépendance">
-              L'objectif de la mission n'était pas de livrer un système que seul son auteur
-              peut faire évoluer. Le responsable de l'équipe a été formé sur la structure du socle,
+            <ProjetApprocheParagraphe titre="Transfert de maîtrise, continuité garantie">
+              L'objectif de la mission : livrer un système que l'équipe peut faire évoluer
+              elle-même. Le responsable de l'équipe a été formé sur la structure du socle,
               la logique des règles deny, et le cycle de vie d'une évolution : modifier le fichier central,
               versionner, propager. Les prochaines phases — montée en compétence avancée,
               checklists opérationnelles, extension du périmètre MCP — peuvent être
